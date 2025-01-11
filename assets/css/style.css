@@ -1,13 +1,19 @@
 /*Import Google fonts*/
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 /*CSS variables*/
 :root {
-    --primary-font:;
-    --secondary-font:;
-    --primary-color:#041c2c /*dark blue*/;
-    --secondary-color: #042f79 /*lighter blue*/;
-    --button-color: #2d1915 /*dark brown*/;
+    --primary-font: "Playfair Display", serif;
+    --secondary-font: "Source Sans 3", serif;
+    --primary-color: #041c2c
+        /*dark blue*/
+    ;
+    --secondary-color: #042f79
+        /*electric blue*/
+    ;
+    --button-color: #2d1915
+        /*dark brown*/
+    ;
 }
 
 /*Navbar styles*/
@@ -15,12 +21,35 @@ nav {
     background-color: var(--primary-color);
 }
 
+nav #logo {
+    width: 10rem;
+}
+
+
+
 nav li a {
     color: white;
     text-decoration: none;
+    font-family: var(--secondary-font);
 }
 
 nav button {
     background-color: var(--button-color);
     border-radius: 0.7rem;
+}
+
+/*Global styles*/
+main {
+    background-color: grey;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+
+/*Footer*/
+footer {
+    background-color: pink;
 }
