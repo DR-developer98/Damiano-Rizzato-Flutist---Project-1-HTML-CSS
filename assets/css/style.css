@@ -1,0 +1,26 @@
+/*Import Google fonts*/
+
+
+/*CSS variables*/
+:root {
+    --primary-font:;
+    --secondary-font:;
+    --primary-color:#041c2c /*dark blue*/;
+    --secondary-color: #042f79 /*lighter blue*/;
+    --button-color: #2d1915 /*dark brown*/;
+}
+
+/*Navbar styles*/
+nav {
+    background-color: var(--primary-color);
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav button {
+    background-color: var(--button-color);
+    border-radius: 0.7rem;
+}
