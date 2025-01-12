@@ -55,7 +55,7 @@ header {
 }
 
 #logo {
-    width: 10rem;
+    width: 7rem;
     padding-top: 10px;
 }
 
@@ -83,6 +83,9 @@ nav li>button:hover {
     border-radius: 5px;
     border: 2px solid var(--button-color);
     font-weight: bold;
+}
+
+nav button>a:hover {
     color: var(--button-color);
 }
 
@@ -127,7 +130,7 @@ main {
     /*Main elment takes up any surplus space to push footer down*/
     flex: 1 0 auto;
     /*Makes main element visible again, because of header's position: absolute*/
-    margin-top: 75px;
+    margin-top: 58px;
 }
 
 /*Footer*/
@@ -196,5 +199,14 @@ footer {
 
     .nav-toggle-label {
         display: none;
+    }
+}
+
+/*Media query: laptops (992px and up)*/
+
+@media screen and (min-width: 992px) {
+    /*rules for underlined navbar links when hovered over*/
+    nav li>a:hover {
+        border-bottom: 1px solid white;
     }
 }
