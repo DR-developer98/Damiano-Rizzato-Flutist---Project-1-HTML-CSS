@@ -40,6 +40,7 @@ li {
 
 }
 
+
 /*Header/Navbar styles*/
 header {
     background-color: var(--primary-color);
@@ -69,12 +70,19 @@ nav li a {
     font-size: 1.2rem;
 }
 
-nav button {
+nav li>button {
     background-color: var(--button-color);
-    border-radius: 0.7rem;
+    border-radius: 5px;
     border: 2px solid var(--button-color);
     font-weight: bold;
+}
 
+nav li>button:hover {
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid var(--button-color);
+    font-weight: bold;
+    color: var(--button-color);
 }
 
 nav>ul {
@@ -88,5 +96,46 @@ nav>ul {
 
 /*Footer*/
 footer {
-    background-color: pink;
+    background-color: var(--primary-color);
+}
+
+#newsletter {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 0.7rem;
+}
+
+#newsletter input {
+    margin-top: 2px;
+}
+
+#newsletter button {
+    background-color: var(--button-color);
+    border-radius: 5px;
+    border: 2px solid var(--button-color);
+    font-weight: bold;
+    color: white;
+    margin-top: 4px;
+    padding: 2px 1px;
+}
+
+#newsletter button:hover {
+    background-color: white;
+    border: 2px solid var(--button-color);
+    color: var(--button-color);
+    font-weight: bold;
+}
+
+#social-medias {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#social-medias i {
+    font-size: 160%;
+    padding: 5%;
+    color: white;
 }
