@@ -29,11 +29,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-main {
-    background-color: grey;
-    /*Main elment takes up any surplus space to push footer down*/
-    flex: 1 0 auto;
-}
 
 li {
     list-style-type: none;
@@ -41,7 +36,7 @@ li {
 }
 
 
-/*Header/Navbar styles*/
+/*Header styles*/
 header {
     background-color: var(--primary-color);
     /*Prevents heading from sticking to side of the screen*/
@@ -49,7 +44,7 @@ header {
     /*For fixed header*/
     position: fixed;
     /*Header always visible*/
-    z-index: 90;
+    z-index: 99;
     width: 100%;
     /*Box shadow*/
     box-shadow: 0px 2px 2px #02101a;
@@ -59,6 +54,7 @@ header {
     width: 10rem;
 }
 
+/*Navbar styles*/
 nav li {
     margin-bottom: 2px;
 }
@@ -91,6 +87,23 @@ nav>ul {
 
 .active {
     border-bottom: 1px solid white;
+}
+
+/*Navbar dropdown menu*/
+nav {
+    position: absolute;
+    width: 100%;
+    background-color: var(--primary-color);
+    box-shadow: 0px 2px 2px #02101a;
+    left: 0;
+    display: none;
+}
+
+/*Main styles*/
+main {
+    background-color: grey;
+    /*Main elment takes up any surplus space to push footer down*/
+    flex: 1 0 auto;
 }
 
 
