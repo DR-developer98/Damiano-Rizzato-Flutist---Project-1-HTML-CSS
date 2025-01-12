@@ -126,11 +126,11 @@ nav {
 
 /*Main styles*/
 main {
-    background-color: grey;
     /*Main elment takes up any surplus space to push footer down*/
     flex: 1 0 auto;
     /*Makes main element visible again, because of header's position: absolute*/
     margin-top: 58px;
+    
 }
 
 /*Footer*/
