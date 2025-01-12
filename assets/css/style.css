@@ -16,7 +16,31 @@
     ;
 }
 
-/*Navbar styles*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*Global styles*/
+body {
+    /*Pushes footer to the bottom*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    background-color: grey;
+    /*Main elment takes up any surplus space to push footer down*/
+    flex: 1 0 auto;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+/*Header/Navbar styles*/
 header {
     background-color: var(--primary-color);
     /*Prevents heading from sticking to side of the screen*/
@@ -59,16 +83,6 @@ nav>ul {
 
 .active {
     border-bottom: 1px solid white;
-}
-
-/*Global styles*/
-main {
-    background-color: grey;
-}
-
-li {
-    list-style-type: none;
-
 }
 
 
