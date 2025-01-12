@@ -17,8 +17,17 @@
 }
 
 /*Navbar styles*/
-nav {
+header {
     background-color: var(--primary-color);
+    /*Prevents heading from sticking to side of the screen*/
+    padding: 0 1rem;
+    /*For fixed header*/
+    position: fixed;
+    /*Header always visible*/
+    z-index: 90;
+    width: 100%;
+    /*Box shadow*/
+    box-shadow: 0px 2px 2px #02101a;
 }
 
 nav #logo {
@@ -31,13 +40,20 @@ nav li a {
     color: white;
     text-decoration: none;
     font-family: var(--secondary-font);
+    font-size: 1.2rem;
 }
 
 nav button {
     background-color: var(--button-color);
     border-radius: 0.7rem;
+    border: 2px solid var(--button-color);
+    font-weight: bold;
+
 }
 
+nav>ul {
+    padding-left: 0px;
+}
 /*Global styles*/
 main {
     background-color: grey;
