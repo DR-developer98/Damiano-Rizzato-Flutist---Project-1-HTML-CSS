@@ -142,14 +142,42 @@ main {
 }
 
 /*Recordings page*/
+#recordings>h1 {
+    font-size: 200%;
+}
+
+#recordings>h1, #video-section p {
+    padding: 10px;
+}
+
 #recordings {
     text-align: center;
+    background-color: lightgrey;
+}
+
+#recordings div {
+    margin-top: 5px;
+}
+
+#recordings iframe {
+    border-radius: 10px;
+    width: 275px;
+    height: 150px;
 }
 
 #recordings p {
     color: var(--secondary-color);
     font-weight: bold;
     margin-bottom: 2px;
+}
+
+#recordings p>a {
+    text-decoration: none;
+}
+
+
+#recordings p>a:hover {
+    color: var(--button-color);
 }
 
 /*Footer*/
@@ -191,7 +219,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #social-medias i {
@@ -224,13 +252,23 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
+    /*Recordings page*/
+    #recordings>#video-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 50px;
+    }
 }
 
-/*Media query: laptops (992px and up)*/
 
+/*Media query: laptops (992px and up)*/
 @media screen and (min-width: 992px) {
     /*rules for underlined navbar links when hovered over*/
     nav li>a:hover {
         border-bottom: 1px solid white;
     }
 }
+
