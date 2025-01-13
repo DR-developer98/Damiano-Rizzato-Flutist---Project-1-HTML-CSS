@@ -35,6 +35,14 @@ li {
 
 }
 
+h1 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--secondary-font);
+}
 
 /*Header styles*/
 header {
@@ -131,6 +139,17 @@ main {
     /*Makes main element visible again, because of header's position: absolute*/
     margin-top: 58px;
     
+}
+
+/*Recordings page*/
+#recordings {
+    text-align: center;
+}
+
+#recordings p {
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin-bottom: 2px;
 }
 
 /*Footer*/
