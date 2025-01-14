@@ -140,10 +140,26 @@ main {
     margin-top: 58px;
 }
 
+/*Homepage*/
 #hero {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center/cover;
+    position: absolute;
+}
+
+#page-title {
+    background-color: rgba(4, 28, 44, 0.7);
+    font-size: 2.3rem;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    width: 80%;
+}
+
+#page-title>h1 {
+    color: white;
+    text-shadow: 0.5px 0.5px black;
 }
 
 /*Recordings page*/
@@ -258,8 +274,14 @@ footer {
         display: none;
     }
 
+    /*Homepage*/
+    #page-title {
+        width: 500px;
+        right: 50px;
+    }
+
     /*Recordings page*/
-    #recordings>#video-section {
+    #video-section {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
