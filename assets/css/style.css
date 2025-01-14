@@ -141,6 +141,7 @@ main {
 }
 
 /*Homepage*/
+/*Hero-section*/
 #hero {
     height: 600px;
     width: 100%;
@@ -160,6 +161,11 @@ main {
 #page-title>h1 {
     color: white;
     text-shadow: 0.5px 0.5px black;
+}
+
+/*About-section*/
+#about {
+    margin-top: 600px;
 }
 
 /*Recordings page*/
