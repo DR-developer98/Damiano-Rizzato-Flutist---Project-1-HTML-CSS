@@ -146,14 +146,14 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center/cover;
-    position: absolute;
+    position: relative;
 }
 
 #page-title {
     background-color: rgba(4, 28, 44, 0.7);
     font-size: 2.3rem;
     text-align: center;
-    position: relative;
+    position: absolute;
     top: 15px;
     width: 80%;
 }
@@ -163,10 +163,6 @@ main {
     text-shadow: 0.5px 0.5px black;
 }
 
-/*About-section*/
-#about {
-    margin-top: 600px;
-}
 
 /*Recordings page*/
 #recordings>h1 {
