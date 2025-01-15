@@ -216,6 +216,29 @@ main {
     color: var(--button-color);
 }
 
+/*GET IN TOUCH PAGE*/
+/*Get-in-touch-section*/
+#get-in-touch {
+    height: 600px;
+    width: 100%;
+    background: url("../images/get-in-touch.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#get-in-touch-overlay {
+    background-color: rgba(4, 28, 44, 0.7);
+    font-size: 2.3rem;
+    text-align: center;
+    position: absolute;
+    bottom: 130px;
+    width: 80%;
+}
+
+#get-in-touch-overlay>h1 {
+    color: white;
+    text-shadow: 0.5px 0.5px black;
+}
+
 /*FOOTER*/
 footer {
     background-color: var(--primary-color);
@@ -268,7 +291,7 @@ footer {
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
 
-    /*Header*/
+    /*HEADER*/
     nav {
         display: block;
         position: relative;
@@ -291,7 +314,7 @@ footer {
         display: none;
     }
 
-    /*Homepage*/
+    /*HOMEPAGE*/
     /*Hero-section*/
     #page-title {
         width: 500px;
@@ -312,7 +335,7 @@ footer {
         font-size: 1.2rem;
     }
 
-    /*Recordings page*/
+    /*RECORDINGS PAGE*/
     #video-section {
         display: flex;
         flex-direction: row;
@@ -320,19 +343,37 @@ footer {
         justify-content: space-evenly;
         gap: 50px;
     }
+
+    /*GET IN TOUCH PAGE*/
+    /*Get-in-touch-section*/
+    #get-in-touch-overlay {
+        width: 500px;
+    }
 }
 
 
 /*Media query: laptops (992px and up)*/
 @media screen and (min-width: 992px) {
 
+    /*HEADER*/
     /*rules for underlined navbar links when hovered over*/
     nav li>a:hover {
         border-bottom: 1px solid white;
     }
 
-    /*Homepage*/
+    /*HOMEPAGE*/
     #page-title {
+        width: 400px;
+    }
+
+    /*GET IN TOUCH PAGE*/
+    /*get-in-touch-section*/
+    #get-in-touch {
+        /*Shows more of the background-image at the top*/
+        height: 800px;
+    }
+
+    #get-in-touch-overlay {
         width: 400px;
     }
 }
@@ -352,5 +393,14 @@ footer {
     /*About-section*/
     #about h2 {
         font-size: 2rem;
+    }
+}
+
+/*Media query: xx-large screens (1400px and up)*/
+@media screen and (min-width: 1400px) {
+    /*get-in-touch-section*/
+    #get-in-touch {
+        /*Shows more of the background-image at the top*/
+        height: 1000px;
     }
 }
