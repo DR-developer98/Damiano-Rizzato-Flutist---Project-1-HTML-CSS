@@ -30,13 +30,14 @@ body {
     flex-direction: column;
 }
 
-li {
+ul>li {
     list-style-type: none;
 
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: var(--primary-font);
     color: var(--primary-color);
 }
@@ -177,28 +178,13 @@ main {
 }
 
 /*RECORDINGS PAGE*/
-#recordings>h1 {
-    font-size: 200%;
-}
-
-#recordings>h1,
-#video-section p {
-    padding: 10px;
-}
-
 #recordings {
     text-align: center;
-    background-color: lightgrey;
 }
 
-#recordings div {
-    margin-top: 5px;
-}
-
-#recordings iframe {
-    border-radius: 10px;
-    width: 275px;
-    height: 150px;
+#recordings>h1 {
+    font-size: 200%;
+    color: var(--primary-color);
 }
 
 #recordings p {
@@ -214,6 +200,53 @@ main {
 
 #recordings p>a:hover {
     color: var(--button-color);
+}
+
+#recordings>h1,
+#video-section p {
+    padding: 10px;
+}
+
+
+#video-section {
+    min-height: 100vh;
+    /*Code for responsiveness*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#video-section>div {
+    margin: 10px;
+    border: 2px solid rgb(3, 18, 29);
+    background-color: rgb(3, 18, 29);
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px;
+    text-align: start;
+    /*Code for responsiveness*/
+    min-height: 200px;
+    flex-grow: 1;
+}
+
+#video-section iframe {
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+}
+
+#video-section h3,
+#video-section li {
+    color: white;
+}
+
+#video-section ul {
+    padding: 10px;
+}
+
+#video-section li {
+    list-style-type: initial;
 }
 
 /*GET IN TOUCH PAGE*/
@@ -388,7 +421,11 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        gap: 50px;
+    }
+
+    #video-section>div {
+        width: 45vw;
+        min-height: 25vw;
     }
 
     /*GET IN TOUCH PAGE*/
@@ -397,7 +434,8 @@ footer {
         width: 500px;
     }
 
-    #form>input, #form>textarea {
+    #form>input,
+    #form>textarea {
         width: 65vw;
     }
 
@@ -431,7 +469,8 @@ footer {
     }
 
     /*form-section*/
-    #form>input, #form>textarea {
+    #form>input,
+    #form>textarea {
         width: 45vw;
     }
 }
