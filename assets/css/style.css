@@ -22,7 +22,7 @@
     box-sizing: border-box;
 }
 
-/*Global styles*/
+/*GLOBAL STYLES*/
 body {
     /*Pushes footer to the bottom*/
     min-height: 100vh;
@@ -45,7 +45,7 @@ p {
     font-family: var(--secondary-font);
 }
 
-/*Header styles*/
+/*HEADER STYLES*/
 header {
     background-color: var(--primary-color);
     /*Prevents heading from sticking to side of the screen*/
@@ -133,7 +133,7 @@ nav {
     display: block;
 }
 
-/*Main styles*/
+/*MAIN STYLES*/
 main {
     /*Main elment takes up any surplus space to push footer down*/
     flex: 1 0 auto;
@@ -141,7 +141,7 @@ main {
     margin-top: 58px;
 }
 
-/*Homepage*/
+/*HOMEPAGE*/
 /*Hero-section*/
 #hero {
     height: 600px;
@@ -173,21 +173,16 @@ main {
 #about h2 {
     margin: 10px auto;
     border-bottom: 2px solid var(--primary-color);
+    text-align: center;
 }
 
-#about-paragraphs {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;    
-}
-
-
-/*Recordings page*/
+/*RECORDINGS PAGE*/
 #recordings>h1 {
     font-size: 200%;
 }
 
-#recordings>h1, #video-section p {
+#recordings>h1,
+#video-section p {
     padding: 10px;
 }
 
@@ -221,7 +216,7 @@ main {
     color: var(--button-color);
 }
 
-/*Footer*/
+/*FOOTER*/
 footer {
     background-color: var(--primary-color);
 }
@@ -269,8 +264,10 @@ footer {
     color: white;
 }
 
+/*MEDIA QUERIES*/
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
+
     /*Header*/
     nav {
         display: block;
@@ -284,7 +281,7 @@ footer {
         display: flex;
     }
 
-    /*Adds some space inbetween the items*/
+    /*Adds some space in between the items*/
     nav li {
         padding-left: 1rem;
     }
@@ -295,8 +292,24 @@ footer {
     }
 
     /*Homepage*/
+    /*Hero-section*/
     #page-title {
         width: 500px;
+    }
+
+    /*About-section*/
+    #biography {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #biography>div {
+        /*Displays biography paragraphs on two columns*/
+        flex: 1 1 40%;
+        box-sizing: border-box;
+        padding: 10px;
+        /*Makes biography text stand out more*/
+        font-size: 1.2rem;
     }
 
     /*Recordings page*/
@@ -312,6 +325,7 @@ footer {
 
 /*Media query: laptops (992px and up)*/
 @media screen and (min-width: 992px) {
+
     /*rules for underlined navbar links when hovered over*/
     nav li>a:hover {
         border-bottom: 1px solid white;
@@ -325,11 +339,18 @@ footer {
 
 /*Media query: extra-large screens (1200px and up)*/
 @media screen and (min-width: 1200px) {
+
     /*Homepage*/
+    /*Hero-section*/
     #page-title {
         width: 500px;
         right: 0px;
         top: 25%;
         font-size: 2.5rem;
+    }
+
+    /*About-section*/
+    #about h2 {
+        font-size: 2rem;
     }
 }
