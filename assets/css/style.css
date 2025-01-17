@@ -184,6 +184,48 @@ main {
     text-align: center;
 }
 
+/*CONCERTS PAGE*/
+#concerts>h1 {
+    text-align: center;
+    font-size: 200%;
+}
+
+#concert-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.align-left {
+    align-self: flex-start;
+}
+
+.align-right {
+    align-self: flex-end;
+}
+
+#concert-list>div {
+    background-color:rgba(4, 28, 44);
+    padding: 10px;
+}
+
+#concert-list h3,
+#concert-list p,
+#concert-list li {
+    color: white;
+}
+
+#concert-list li {
+    /*Adds some breathing space between the list items*/
+    margin-top: 4px;
+}
+
+#concert-list img {
+    width: 40%;
+    height: auto;
+}
+
 /*RECORDINGS PAGE*/
 #recordings {
     text-align: center;
@@ -191,7 +233,6 @@ main {
 
 #recordings>h1 {
     font-size: 200%;
-    color: var(--primary-color);
 }
 
 #recordings p {
