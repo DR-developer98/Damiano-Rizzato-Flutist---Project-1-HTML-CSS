@@ -282,8 +282,7 @@ main {
     color: var(--button-color);
 }
 
-#recordings>h1,
-#video-section p {
+#recordings>h1 {
     padding: 10px;
 }
 
@@ -302,11 +301,9 @@ main {
     border: 2px solid rgb(3, 18, 29);
     background-color: rgb(3, 18, 29);
     border-radius: 10px;
-    height: fit-content;
     padding: 10px;
     text-align: start;
     /*Code for responsiveness*/
-    min-height: 200px;
     flex-grow: 1;
 }
 
@@ -316,17 +313,8 @@ main {
     height: 150px;
 }
 
-#video-section h3,
-#video-section li {
+#video-section h3 {
     color: white;
-}
-
-#video-section ul {
-    padding: 10px;
-}
-
-#video-section li {
-    list-style-type: initial;
 }
 
 /*GET IN TOUCH PAGE*/
@@ -447,6 +435,9 @@ footer {
     color: white;
 }
 
+/*SUCCESS-GET-IN-TOUCH*/
+
+
 /*MEDIA QUERIES*/
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
@@ -505,7 +496,6 @@ footer {
 
     #video-section>div {
         width: 45vw;
-        min-height: 25vw;
     }
 
     /*GET IN TOUCH PAGE*/
