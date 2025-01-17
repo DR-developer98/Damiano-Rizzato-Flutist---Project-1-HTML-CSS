@@ -104,7 +104,7 @@ nav>ul {
 }
 
 .active {
-    border-bottom: 1px solid white;
+    text-decoration: underline white 2px;
 }
 
 /*Navbar dropdown menu*/
@@ -166,6 +166,10 @@ main {
 }
 
 /*About-section*/
+#about {
+    padding-top: 57px;
+}
+
 #about>div {
     margin: 5px;
 }
@@ -173,7 +177,10 @@ main {
 
 #about h2 {
     margin: 10px auto;
+    text-decoration: underline;
+    /*
     border-bottom: 2px solid var(--primary-color);
+    border-top: 2px solid var(--primary-color;);*/
     text-align: center;
 }
 
