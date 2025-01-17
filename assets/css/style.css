@@ -46,6 +46,10 @@ p {
     font-family: var(--secondary-font);
 }
 
+a {
+    text-decoration: none;
+}
+
 /*HEADER STYLES*/
 header {
     background-color: var(--primary-color);
@@ -76,7 +80,6 @@ nav li {
 
 nav li a {
     color: white;
-    text-decoration: none;
     font-family: var(--secondary-font);
     font-size: 1.2rem;
 }
@@ -178,9 +181,6 @@ main {
 #about h2 {
     margin: 10px auto;
     text-decoration: underline;
-    /*
-    border-bottom: 2px solid var(--primary-color);
-    border-top: 2px solid var(--primary-color;);*/
     text-align: center;
 }
 
@@ -205,9 +205,17 @@ main {
     align-self: flex-end;
 }
 
+.smaller-font {
+    font-size: 80%;
+}
+
 #concert-list>div {
-    background-color:rgba(4, 28, 44);
+    border: 2px solid rgb(3, 18, 29);
+    background-color: rgb(3, 18, 29);
+    border-radius: 10px;
     padding: 10px;
+    margin-top: 10px;
+    flex: 1 auto;
 }
 
 #concert-list h3,
@@ -222,8 +230,32 @@ main {
 }
 
 #concert-list img {
-    width: 40%;
+    width: 100px;
     height: auto;
+}
+
+#concert-list button {
+    background-color: var(--button-color);
+    border-radius: 5px;
+    border: 2px solid var(--button-color);
+    font-weight: bold;
+    margin-top: 4px;
+    padding: 10px;
+}
+
+#concert-list button:hover {
+    background-color: white;
+    border: 2px solid var(--button-color);
+    color: var(--button-color);
+    font-weight: bold;
+}
+
+#concert-list a {
+    color: white;
+}
+
+#concert-list button>a:hover {
+    color: var(--button-color);
 }
 
 /*RECORDINGS PAGE*/
