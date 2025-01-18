@@ -142,7 +142,7 @@ main {
     /*Main elment takes up any surplus space to push footer down*/
     flex: 1 0 auto;
     /*Makes main element visible again, because of header's position: absolute*/
-    margin-top: 58px;
+    margin-top: 57px;
 }
 
 /*HOMEPAGE*/
@@ -386,6 +386,56 @@ main {
     font-weight: bold;
 }
 
+/*SUCCESS GET IN TOUCH PAGE*/
+#success-get-in-touch {
+    background-color: lightgrey;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#success-get-in-touch>.wrapper {
+    text-align: center;
+}
+
+.wrapper * {
+    margin-top: 5px;
+}
+
+.wrapper>h1 {
+    font-size: 2.5rem;
+}
+
+.wrapper>p {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+.wrapper>button {
+    background-color: var(--button-color);
+    border-radius: 5px;
+    border: 2px solid var(--button-color);
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+.wrapper>button>a {
+    color: white;
+}
+
+.wrapper>button:hover {
+    background-color: white;
+    border: 2px solid var(--button-color);
+    color: var(--button-color);
+    font-weight: bold;
+}
+
+.wrapper>button>a:hover {
+    color: var(--button-color);
+}
 
 /*FOOTER*/
 footer {
