@@ -186,7 +186,11 @@ main {
 }
 
 /*CONCERTS PAGE*/
-#concerts>h1 {
+#concerts {
+    background-color: lightgrey;
+}
+
+#concerts>article>h1 {
     text-align: center;
     font-size: 200%;
 }
@@ -200,10 +204,12 @@ main {
 
 .align-left {
     align-self: flex-start;
+    flex-grow: 1;
 }
 
 .align-right {
     align-self: flex-end;
+    flex-grow: 1;
 }
 
 .smaller-font {
@@ -215,27 +221,39 @@ main {
     background-color: rgb(3, 18, 29);
     border-radius: 10px;
     padding: 10px;
+    max-width: 540px;
     margin-top: 10px;
-    flex: 1 auto;
 }
 
-#concert-list h3,
-#concert-list p,
-#concert-list li {
+.concert-image {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.concert-image img {
+    width: 75%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.concert-text>h2,
+.concert-text>p,
+.concert-text li {
     color: white;
 }
 
-#concert-list li {
+.concert-text>p {
+    margin-bottom: 4px;
+}
+
+.concert-text li {
     /*Adds some breathing space between the list items*/
     margin-top: 4px;
 }
 
-#concert-list img {
-    width: 100px;
-    height: auto;
-}
-
-#concert-list button {
+.concert-text>button {
     background-color: var(--button-color);
     border-radius: 5px;
     border: 2px solid var(--button-color);
@@ -244,18 +262,18 @@ main {
     padding: 10px;
 }
 
-#concert-list button:hover {
+.concert-text>button:hover {
     background-color: white;
     border: 2px solid var(--button-color);
     color: var(--button-color);
     font-weight: bold;
 }
 
-#concert-list a {
+.concert-text a {
     color: white;
 }
 
-#concert-list button>a:hover {
+.concert-text>button>a:hover {
     color: var(--button-color);
 }
 
@@ -535,6 +553,36 @@ footer {
         padding: 10px;
         /*Makes biography text stand out more*/
         font-size: 1.2rem;
+    }
+
+    /*CONCERTS PAGE*/
+    .align-left {
+        /*In order to display concert image and description next to each other*/
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+    }
+    
+    .align-right {
+        /*In order to display concert image and description next to each other*/
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+    }
+
+    .concert-image{
+        border-bottom: none;
+        border-right: 2px solid white;
+    }
+
+    .concert-image img {
+        padding-top: 80px;
+        width: 90%;
+    }
+
+    .concert-text {
+        margin-left: 10px;
+        width: 100%;
     }
 
     /*RECORDINGS PAGE*/
