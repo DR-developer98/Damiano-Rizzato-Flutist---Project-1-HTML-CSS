@@ -306,7 +306,6 @@ main {
     padding: 10px;
 }
 
-
 #video-section {
     min-height: 100vh;
     /*Code for responsiveness*/
@@ -496,7 +495,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #social-medias i {
@@ -504,9 +503,6 @@ footer {
     padding: 5%;
     color: white;
 }
-
-/*SUCCESS-GET-IN-TOUCH*/
-
 
 /*MEDIA QUERIES*/
 /*Media query: tablets and larger (768px and up)*/
