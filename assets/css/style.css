@@ -200,6 +200,8 @@ main {
 #concert-list {
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
     display: flex;
     flex-direction: column;
 }
@@ -235,7 +237,7 @@ main {
 }
 
 .concert-image img {
-    width: 75%;
+    width: 100%;
     height: auto;
     border-radius: 5px;
 }
@@ -567,6 +569,11 @@ footer {
     }
 
     /*CONCERTS PAGE*/
+    #concert-list {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
     .align-left {
         /*In order to display concert image and description next to each other*/
         display: flex;
@@ -601,7 +608,6 @@ footer {
         flex-basis: 45%;
     }
 
-
     /*GET IN TOUCH PAGE*/
     /*Get-in-touch-section*/
     #get-in-touch-overlay {
@@ -612,8 +618,6 @@ footer {
     #form>textarea {
         width: 65vw;
     }
-
-
 }
 
 
