@@ -417,8 +417,11 @@ main {
 
 /*SUCCESS GET IN TOUCH PAGE*/
 #success-get-in-touch {
-    background-color: lightgrey;
-    min-height: 100vh;
+    /*
+    background-color: lightgrey;*/
+    background: url("../images/get-in-touch.webp") no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
