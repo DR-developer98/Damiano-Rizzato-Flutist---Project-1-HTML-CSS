@@ -490,6 +490,12 @@ footer {
     font-weight: bold;
 }
 
+#newsletter>form>input {
+    font-family: var(--secondary-font);
+    border-radius: 5px;
+    padding: 2.5px;
+}
+
 #newsletter button {
     background-color: var(--button-color);
     border-radius: 5px;
