@@ -339,6 +339,14 @@ main {
 
 /*GET IN TOUCH PAGE*/
 /*Get-in-touch-section*/
+.active-button {
+    background-color: white;
+    border: 2px solid var(--button-color);
+    color: var(--button-color);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
 #get-in-touch {
     height: 600px;
     width: 100%;
