@@ -417,8 +417,6 @@ main {
 
 /*SUCCESS GET IN TOUCH PAGE*/
 #success-get-in-touch {
-    /*
-    background-color: lightgrey;*/
     background: url("../images/get-in-touch.webp") no-repeat center center/cover;
     height: 600px;
     width: 100%;
@@ -441,13 +439,15 @@ main {
 }
 
 .wrapper>h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: lightgrey;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .wrapper>p {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .wrapper>button {
@@ -669,7 +669,11 @@ footer {
     }
 
     /*SUCCESS GET IN TOUCH PAGE*/
+    #success-get-in-touch {
+        min-height: 800px;
+    }
 }
+
 
 /*Media query: extra-large screens (1200px and up)*/
 @media screen and (min-width: 1200px) {
@@ -714,6 +718,11 @@ footer {
     /*get-in-touch-section*/
     #get-in-touch {
         /*Shows more of the background-image at the top*/
+        min-height: 1000px;
+    }
+
+    /*SUCCESS GET IN TOUCH PAGE*/
+    #success-get-in-touch {
         min-height: 1000px;
     }
 }
