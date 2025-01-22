@@ -47,19 +47,19 @@ p {
 }
 
 a {
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 /*HEADER STYLES*/
 header {
     background-color: var(--primary-color);
     /*Prevents heading from sticking to side of the screen*/
-    padding: 0 1rem !important;
+    padding: 0 1rem;
     /*For fixed header*/
     position: fixed;
     /*Header always visible*/
     z-index: 99;
-    width: 100% !important;
+    width: 100%;
     /*Box shadow*/
     box-shadow: 0px 2px 2px #02101a;
     /*Part 1 code for navbar dropdown menu*/
@@ -80,7 +80,7 @@ nav li {
 }
 
 nav li a {
-    color: white !important;
+    color: white;
     font-family: var(--secondary-font);
     font-size: 1.2rem;
 }
@@ -100,7 +100,7 @@ nav li>button:hover {
 }
 
 nav button>a:hover {
-    color: var(--button-color) !important;
+    color: var(--button-color);
 }
 
 nav>ul {
@@ -335,7 +335,7 @@ main {
 .active-button {
     background-color: white;
     border: 2px solid var(--button-color);
-    color: var(--button-color) !important;
+    color: var(--button-color);
     font-weight: bold;
     border-radius: 5px;
 }
@@ -482,16 +482,6 @@ footer {
     font-weight: bold;
 }
 
-/*counteracts Bootstrap CSS added margin-bottom*/
-#newsletter>p {
-    margin-bottom: 0;
-}
-
-#newsletter input {
-    margin-top: 2px;
-    width: 169px;
-}
-
 #newsletter button {
     background-color: var(--button-color);
     border-radius: 5px;
@@ -513,9 +503,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: space-evenly;
-    /*Counteracts Bootstrap CSS margin-bottom*/
-    margin-bottom: 0px;
+    justify-content: space-evenly;    
 }
 
 #social-medias i {
