@@ -114,15 +114,15 @@ nav>ul {
 /*Navbar dropdown menu*/
 nav {
     position: absolute;
-    width: 100%; 
+    width: 100%;
     padding-left: 15px;
     background-color: var(--primary-color);
     box-shadow: 0px 2px 2px #02101a;
     /*Part 2 code dropdown menu*/
     left: 0;
     display: none;
-    top: 100%; 
-} 
+    top: 100%;
+}
 
 /*Part 3 code dropdown menu*/
 #nav-toggle {
@@ -308,7 +308,13 @@ main {
 }
 
 #video-section {
+    height: 90%;
     width: 100%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 #video-section>div {
@@ -503,7 +509,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
 }
 
 #social-medias i {
@@ -590,6 +596,12 @@ footer {
         width: 100%;
     }
 
+    /*RECORDINGS PAGE*/
+    #video-section>div {
+        flex-basis: 45%;
+    }
+
+
     /*GET IN TOUCH PAGE*/
     /*Get-in-touch-section*/
     #get-in-touch-overlay {
@@ -628,6 +640,12 @@ footer {
         min-width: 65vw;
     }
 
+    /*RECORDINGS PAGE*/
+    #video-section>div {
+        flex-basis: 40%;
+    }
+
+
     /*GET IN TOUCH PAGE*/
     /*get-in-touch-section*/
     #get-in-touch {
@@ -655,7 +673,7 @@ footer {
 /*Media query: extra-large screens (1200px and up)*/
 @media screen and (min-width: 1200px) {
 
-    /*Homepage*/
+    /*HOMEPAGE*/
     /*Hero-section*/
     #page-title {
         width: 500px;
@@ -677,11 +695,21 @@ footer {
     .align-right {
         min-width: 55vw;
     }
+
+    /*RECORDINGS PAGE*/
+    #video-section>div {
+        flex-basis: 35%;
+    }
 }
 
 
 /*Media query: xx-large screens (1400px and up)*/
 @media screen and (min-width: 1400px) {
+
+    /*RECORDINGS PAGE*/
+    #video-section>div {
+        flex-basis: 32%;
+    }
 
     /*CONCERTS PAGE*/
     .align-left {
