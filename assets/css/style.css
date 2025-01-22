@@ -428,8 +428,12 @@ main {
     justify-content: center;
 }
 
-#success-get-in-touch>.wrapper {
+.wrapper {
     text-align: center;
+    background-color: rgba(4, 28, 44, 0.5);
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
 }
 
 .wrapper * {
@@ -438,10 +442,11 @@ main {
 
 .wrapper>h1 {
     font-size: 2.5rem;
+    color: lightgrey;
 }
 
 .wrapper>p {
-    color: var(--secondary-color);
+    color: white;
     font-size: 1.2rem;
 }
 
@@ -451,6 +456,7 @@ main {
     border: 2px solid var(--button-color);
     font-weight: bold;
     color: white;
+    margin-bottom: 5px;
     padding: 10px;
 }
 
@@ -661,6 +667,8 @@ footer {
     #form>textarea {
         width: 45vw;
     }
+
+    /*SUCCESS GET IN TOUCH PAGE*/
 }
 
 /*Media query: extra-large screens (1200px and up)*/
