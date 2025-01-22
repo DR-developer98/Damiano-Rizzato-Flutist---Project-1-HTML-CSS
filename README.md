@@ -1,7 +1,7 @@
-<img src="assets/images/fulllogo.webp" style="width: 25%;">
+<img src="assets/images-for-README/fulllogo.webp" style="width: 25%;">
 
 <h1><strong>Damiano Rizzato - Flutist</strong></h1>
-is Damiano Rizzato's personal professional website, designed to bring venues, artistic directors, classical music enthusiasts and people who already follow him on his social media platforms in contact with him
+is Damiano Rizzato's personal professional website, designed to bring venues, artistic directors, classical music enthusiasts and people who already follow him on his social media platforms in contact with him.
 The website is meant as a landing page that allows the different types of visitors:
 <ul>
 <li>to learn more about his background;</li>
@@ -10,6 +10,8 @@ The website is meant as a landing page that allows the different types of visito
 <li>to get in touch with him to discuss concert and project ideas and/or to book him for a concert</li>
 </ul>
 The main business objective is for the flutist to get more gigs, which is reflected in the website navigation bar in the "Get in touch" button, which stands out from the background.
+
+<img alt=">
 
 <h2>Relevant user stories</h2>
 
@@ -27,28 +29,43 @@ The relevant user stories that are the fundation of this website are the followi
 <h2>Features</h2>
 
 <h3>Navigation bar</h3>
-The navigation bar is displayed on all five pages (homepage, concerts, recordings, get in touch and success pages), it's fully responsive and presents the logo (which enables navigation to the home page), all navigation links as well as two in-page links, namely Newsletter and About.
-The navbar looks on all pages the same, to allow for easy navigation.
+<ul>
+<li>The navigation bar is displayed on all five pages (homepage, concerts, recordings, get in touch and success pages), it's fully responsive and presents the logo (which enables navigation to the home page), all navigation links as well as two in-page links, namely Newsletter and About.</li>
+<li>This section enables seamless navigation across all devices, allowing users to move from page to page without needing to use the 'back' button.</li>
+</ul>
 
-<h3>Footer/Newsletter</h3>
+<img src="assets/images-for-README/navigation-bar.webp">
+
+<h3>Footer</h3>
 The footer section, which looks on all website pages and is fully responsive on all main screen sizes, comprises two elements:
 <ul>
-<li><strong>the newsletter section</strong> (accessible from any page via in-page link "Newsletter" in the navbar"), which compries a short call to action and an e-mail input for the user to be able to sign up for it;</li>
-<li><strong>the social media section</strong> includes links to all the links to the flutist's relevant social media sites. The links will open to a new tab to allow for an easy navigation for the user.</li> 
+<li><strong>the newsletter section</strong> (accessible from any page via in-page link "Newsletter" in the navbar"), which compries a short call to action and an e-mail input for the user to be able to sign up;</li>
+<li><strong>the social media section</strong> includes links to all the flutist's relevant social media sites. The links will open in a new tab, allowing for an easy navigation for the user.</li> 
 </ul>
-The footer section on the website addresses the third and the fourth user story, allowing the user to receive updates on upcoming concerts, projects and recordings directly to their mailbox and to navigate to the flutist's different social media profiles and view the different types of content he publishes.
+The footer section on the website addresses the third and the fourth user story, allowing the user to receive updates on upcoming concerts, projects and recordings directly to their mailbox as well as to navigate to the flutist's different social media profiles to view the different types of content he publishes.
+
+<img src="assets/images-for-README/footer.webp">
+
+<h3>Landing page image</h3>
+
 
 <h3>About</h3>
-The About section, located in the homepage directly under the hero-image, serves the user in that it directly addresses the first user story, providing them with the flutist's background information. This section is accessible from all pages by means of the "About" nav link in the navigation bar.
+The About section, located in the homepage directly under the hero-image, serves the user in that it directly addresses the first user story, providing them with the flutist's background information. This section is accessible from all pages by means of "About" nav link.
+
+<img src="assets/images-for-README/About-section.webp">
 
 <h3>Concerts</h3>
-The concerts page displays a list of upcoming performances. 
-The user will be provided with basic relevant information on the concerts such as the venue, the date, the time, the program and the name of the other musicians. At the bottom of each card there is a "Buy tickets" button, which redirects the user to the venue website relevant page, where they will be able to purchase tickets for the concert.
-Currently, all the displayed information is made up, therefore any reference to people, dates, program titles and composition is purely coincidental. This section will be updated with real concerts.
+The concerts page lists upcoming performances with details like venue, date, time, program, and other musicians. Each card consistst of two parts:
+<ul>
+<li>Venue picture, which if clicked links to the venue's homepage;</li>
+<li>Concert description section, which includes the abovementioned information as well as a "Buy tickets" button that - currently - links to the venue's homepage. </li>
+</ul> 
+<strong>Note:</strong> dates, times, programs and the musicians' names are all fictional, therefore any reference to real people and events is purely coincidental. This section will be updated with real information in the future.
+
+<img src="assets/images-for-README/concerts-page.webp">
 
 <h3>Recordings</h3>
-The recordings page presents the user with four highlight recordings from Damiano's YouTube channel and with a link at the bottom of the page to Damiano's YouTube channel; in this way, visitors of the website who might be curious to listen to more content, can do so. 
-This section will be kept up to date with the flutist's most recent recordings.
+The recordings page features four highlight recordings from Damiano's YouTube channel and a link to the full channel at the bottom. This section is regularly updated with the flutist's latest recordings.
 
 <h3>Get in touch</h3>
 This page will allow primarily venues and artistic directors to get in touch with Damiano, in order to discuss concert and project ideas with him. They will be able to specify the subject of their query/proposal and to type out their message in the textarea.
@@ -58,9 +75,37 @@ This page will allow primarily venues and artistic directors to get in touch wit
 <h3>Unfixed bugs</h3>
 <h3>Deployment</h3>
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The site was deployed to GitHub pages. 
+The steps to deploy are as follows:
+<ol>
+<li>In the GitHub repository, navigate to the Settings tab</li>
+<li>From the source section drop-down menu, select the Master Branch</li>
+<li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
+</ol>
 
+<h2>Credits</h2>
 
+<h3>Content</h3>
+<h4>Technologies used</h4>
+<ul>
+<li>The logo was made using <a href="https://www.design.com/identity/account/signin?returnUrl=%2Fmaker%2Fmylogos%2Fdrafts%2F1a12edad-ae26-4e4e-ac1b-dafe6d2c9723%2Fdownload" target="_blank" aria-label="Sign in page Design.com">www.design.com</a></li>
+<li>The favicons were made using <a href="https://favicon.io/" target="_blank" aria-label="Favicon.io homepage">favicon.io</a></li>
+<li>The social media icons were taken from <a href="https://fontawesome.com/" target="_blank" aria-label="Fontawesome homepage">www.fontawesome.com</a></li>
+<li>The musicians' names (Tristan de Lange and Melissa de Bruijn) were generated by <a href="https://www.random-name-generator.com/netherlands?s=965&search_terms=&gender=female&search_terms=&n=3" target="_blank" aria-label="Random name generator - Dutch names page">www.random-name-generator.com</a></li>
+<li>HTML for the website structure</li>
+<li>CSS for the website layout and esthetic</li>
+</ul>
+
+<h4>Media</h4>
+<ul>
+<li>The pictures used in the following pages were taken by <strong>Tom Tulleken</strong>:
+<ul>
+<li>Homepage</li>
+<li>Get in touch page</li>
+<li>Feedback page after Get in touch form submission</li>
+<li>Feedback page after signing up for the Newsletter</li>
+</ul>
+</li>
+<li>The venue pictures used in the Concerts page were taken from <a href="https://images.google.com/" target="_blank" aria-label="Google images">images.google.com</a></li>
+<li>All the YouTube videos included in the Recordings page were taken from my own <a href="https://www.youtube.com/@dam987" target="_blank" aria-label="Damiano Rizzato flutist - YouTube profile">YouTube channel</a></li>
+</ul>
