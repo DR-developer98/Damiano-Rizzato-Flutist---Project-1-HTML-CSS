@@ -47,7 +47,6 @@ The footer section addresses the third and fourth user stories, enabling users t
 
 <h3>Landing page image</h3>
 
-
 <h3>About</h3>
 The About section, located in the homepage directly under the hero-image, serves the user in that it directly addresses the first user story, providing them with the flutist's background information. This section is accessible from all pages by means of "About" nav link.
 
