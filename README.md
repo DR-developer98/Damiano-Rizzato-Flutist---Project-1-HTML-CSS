@@ -106,11 +106,12 @@ All the fields must be filled in, in order to meet the form submission requireme
 <li>Changed the h2 heading in the "About" section of index.html to h1, since it wasn't semantically right.</li>
 <li>In recordings.html I removed the "frameboarder: 0" inline CSS style of the iframes and replaced it with external CSS</li>
 <li>Added closing tags/Removed unnecessary opening tags</li>
-<li>Substituted all the buttons nested inside anchor elements by using this code (See credits for the source)
+<li>Substituted all the buttons nested inside anchor elements by using this code (source: see credits)
 
 <img src="assets/images-for-README/display-link-as-button-solution.webp">
 
 </li>
+<li>In concerts.html, in the .concert-text section of each concert card, the Validator was giving this error message: "Error: No p element in scope but a p end tag seen.". This was caused by those p's incorrectly cointaining the block-level element ul. This was fixed by removing the p's as containers of those unordered lists (Source: see credits)</li>
 </ul>
 </li>
 <li>CSS</li>
@@ -157,6 +158,7 @@ The steps to deploy are as follows:
 
 <ul>
 <li>Solution for fixing the a>button error the HTML Validator was pointing out was taken from <a href="https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link" target="_blank">Stackoverflow</a></li>
+<li>Solution for fixing WC3 HTML Validator error message "No p element in scope but a p end tag seen." taken from Microsoft Copilot, search query: "How to fix "Error: No p element in scope but a p end tag seen."?</li>
 <li>Code for making the "Buy tickets" links in the concerts.html page look like buttons while still opening on a new tab was taken from Microsoft-copilot, search query: "How to turn a link into a button?"</li>
 
 <img src="assets/images-for-README/code-link-turned-into-button-copilot.webp">
