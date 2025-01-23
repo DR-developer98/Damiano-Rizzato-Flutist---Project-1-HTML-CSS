@@ -85,15 +85,19 @@ nav li a {
     font-size: 1.2rem;
 }
 
-nav li>button {
+nav li button {
     background-color: var(--button-color);
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px;
     border-radius: 5px;
     border: 2px solid var(--button-color);
     font-weight: bold;
 }
 
-nav li>button:hover {
+nav li button:hover {
     background-color: white;
+    color: var(--button-color);
     border-radius: 5px;
     border: 2px solid var(--button-color);
     font-weight: bold;

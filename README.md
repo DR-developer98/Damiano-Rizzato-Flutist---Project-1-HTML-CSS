@@ -16,14 +16,14 @@ The primary business objective is to help the flutist secure more performance op
 <h2>Relevant User Stories</h2>
 The foundation of this website is built on the following relevant user stories:
 
-<ul>
+<ol>
 <li>As an Instagram follower, I want to find a biography section, so I can learn more about Damiano's background.</li>
 <li>As a regular concert attendee, I want to see a list of upcoming performances with clear details about time, date, venue, and program, so I can find events that interest me and fit my schedule.</li>
 <li>As a classical music enthusiast, I want to subscribe to Damiano's newsletter, so I can receive updates on his upcoming performances, new recordings, and behind-the-scenes insights directly in my inbox.</li>
 <li>As a classical music enthusiast, I want easy access to Damiano's social media profiles, so I can stay updated with his latest activities, performances, and content on various platforms.</li>
 <li>As a concert venue, I want to listen to some of Damiano's recordings, so I can determine if he's a suitable fit for the concert I am organizing.</li>
 <li>As an artistic director, I want to get in touch with Damiano, so I can discuss concert and project ideas with him.</li>
-</ul>
+</ol>
 
 <h2>Features</h2>
 
@@ -63,20 +63,31 @@ The concerts page lists upcoming performances with details like venue, date, tim
 <img src="assets/images-for-README/concerts-page.webp">
 
 <h3>Recordings</h3>
-The recordings page features four highlight recordings from Damiano's YouTube channel and a link to the full channel at the bottom. This section is regularly updated with the flutist's latest recordings.
+The recordings page features four highlight recordings from Damiano's YouTube channel and a link to the full channel at the bottom. This section will regularly be updated with the flutist's latest recordings.
+This feature addresses user story #5, providing artistic directors and venues the possibility to 
 
 <h3>Get in touch</h3>
 This page will allow primarily venues and artistic directors to get in touch with Damiano, in order to discuss concert and project ideas with him. They will be able to specify the subject of their query/proposal and to type out their message in the textarea.
 
 <h2>Testing</h2>
 <h3>Validator testing</h3>
+
+<ul>
+<li>HTML
+<ul>
+</ul>
+</li>
+<li>CSS</li>
+</ul>
+
+
 <h3>Unfixed bugs</h3>
 <h3>Deployment</h3>
 
 The site was deployed to GitHub pages. 
 The steps to deploy are as follows:
 <ol>
-<li>In the GitHub repository, navigate to the Settings tab</li>
+<li>In the GitHub repository <em>Damiano-Rizzato-Flutist---Project-1-HTML-CSS</em>, navigate to the Settings tab</li>
 <li>From the source section drop-down menu, select the Master Branch</li>
 <li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
 </ol>
