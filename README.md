@@ -1,29 +1,28 @@
 <img src="assets/images-for-README/fulllogo.webp" style="width: 25%;">
 
-<h1><strong>Damiano Rizzato - Flutist</strong></h1>
-is Damiano Rizzato's personal professional website, designed to bring venues, artistic directors, classical music enthusiasts and people who already follow him on his social media platforms in contact with him.
-The website is meant as a landing page that allows the different types of visitors:
+<h1>Damiano Rizzato - Flutist</h1>
+Welcome to the official professional website of Damiano Rizzato, created to connect venues, artistic directors, classical music enthusiasts, and social media followers with Damiano.
+
+This website serves as a landing page that allows various visitors to:
+
 <ul>
-<li>to learn more about his background;</li>
-<li>to stay up to date with his concerts and projects</li>
-<li>to listen to his recordings</li>
-<li>to get in touch with him to discuss concert and project ideas and/or to book him for a concert</li>
+<li>Discover more about his background and career;</li>
+<li>Stay updated on his concerts and projects;</li>
+<li>Listen to his recordings;</li>
+<li>Contact him to discuss concert and project ideas or to book him for an event;</li>
 </ul>
-The main business objective is for the flutist to get more gigs, which is reflected in the website navigation bar in the "Get in touch" button, which stands out from the background.
+The primary business objective is to help the flutist secure more performance opportunities, emphasized by the prominent "Get in touch" button in the website's navigation bar.
 
-<img alt=">
-
-<h2>Relevant user stories</h2>
-
-The relevant user stories that are the fundation of this website are the following:
+<h2>Relevant User Stories</h2>
+The foundation of this website is built on the following relevant user stories:
 
 <ul>
-<li>As Damiano's Instagram follower, I want to be presented with a biography section, so that I can learn more about his background.</li>
-<li>As a regular visitor of Damiano's concerts, I want to view a list of upcoming performances, with clear information about time, date, venue and program, so that I can see what interests me and fits into my schedule.</li>
-<li>As a classical music enthusiast, I want to subscribe to Damiano's newsletter, so that I can receive updates on the flutist's upcoming performances, new recordings, and behind-the-scenes insights directly to my email inbox.</li>
-<li>As a classical music enthusiast, I want to easily access Damiano's social media profiles so that I can stay updated with his latest activities, performances, and content on various platforms. </li>
-<li>As a concert venue, I want to be able to listen to some of Damiano's recordings, so that I can decide whether he's a good fit for the concert I am organizing.</li>
-<li>As an artistic director, I want to be able to get in touch with Damiano, so that I can discuss concert and project ideas with him.</li>
+<li>As an Instagram follower, I want to find a biography section, so I can learn more about Damiano's background.</li>
+<li>As a regular concert attendee, I want to see a list of upcoming performances with clear details about time, date, venue, and program, so I can find events that interest me and fit my schedule.</li>
+<li>As a classical music enthusiast, I want to subscribe to Damiano's newsletter, so I can receive updates on his upcoming performances, new recordings, and behind-the-scenes insights directly in my inbox.</li>
+<li>As a classical music enthusiast, I want easy access to Damiano's social media profiles, so I can stay updated with his latest activities, performances, and content on various platforms.</li>
+<li>As a concert venue, I want to listen to some of Damiano's recordings, so I can determine if he's a suitable fit for the concert I am organizing.</li>
+<li>As an artistic director, I want to get in touch with Damiano, so I can discuss concert and project ideas with him.</li>
 </ul>
 
 <h2>Features</h2>
@@ -37,12 +36,12 @@ The relevant user stories that are the fundation of this website are the followi
 <img src="assets/images-for-README/navigation-bar.webp">
 
 <h3>Footer</h3>
-The footer section, which looks on all website pages and is fully responsive on all main screen sizes, comprises two elements:
+The footer section, which appears on all website pages and is fully responsive on all major screen sizes, comprises two key elements:
 <ul>
-<li><strong>the newsletter section</strong> (accessible from any page via in-page link "Newsletter" in the navbar"), which compries a short call to action and an e-mail input for the user to be able to sign up;</li>
-<li><strong>the social media section</strong> includes links to all the flutist's relevant social media sites. The links will open in a new tab, allowing for an easy navigation for the user.</li> 
+<li><strong>the newsletter section:</strong> accessible from any page via an in-page link ("Newsletter") in the navbar, this section includes a short call to action and an email input field for users to sign up;</li>
+<li><strong>the social media section:</strong> this section includes links to all of the flutist's relevant social media sites. These links open in a new tab, ensuring easy navigation for the user.</li> 
 </ul>
-The footer section on the website addresses the third and the fourth user story, allowing the user to receive updates on upcoming concerts, projects and recordings directly to their mailbox as well as to navigate to the flutist's different social media profiles to view the different types of content he publishes.
+The footer section addresses the third and fourth user stories, enabling users to receive updates on upcoming concerts, projects, and recordings directly in their mailbox, as well as easily navigate to the flutist's various social media profiles to view the different types of content he publishes.
 
 <img src="assets/images-for-README/footer.webp">
 
