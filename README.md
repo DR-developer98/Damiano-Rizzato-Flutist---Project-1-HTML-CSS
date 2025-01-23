@@ -112,6 +112,8 @@ All the fields must be filled in, in order to meet the form submission requireme
 
 </li>
 <li>In concerts.html, in the .concert-text section of each concert card, the Validator was giving this error message: "Error: No p element in scope but a p end tag seen.". This was caused by those p's incorrectly cointaining the block-level element ul. This was fixed by removing the p's as containers of those unordered lists (Source: see credits)</li>
+<li>In get-in-touch.html, the #form section was lacking a heading. This was solved by turning the section #form element into a div#form element and by removing the unnecessary direct div-child.</li>
+<li>With regard to the confirmation pages for the get in touch form and the newsletter signup section no errors were returned when passing through the official <a href="https://validator.w3.org/" target="_blank">W3C validator</a></li>
 </ul>
 </li>
 <li>CSS</li>

@@ -31,9 +31,11 @@
                 <li><a href="#newsletter">Newsletter</a></li>
                 <li><a href="concerts.html">Concerts</a></li>
                 <li><a href="recordings.html">Recordings</a></li>
-                <li><form action="get-in-touch.html">
-                    <input type="submit" value="Get in touch" class="active-button">
-                </form></li>
+                <li>
+                    <form action="get-in-touch.html">
+                        <input type="submit" value="Get in touch" class="active-button">
+                    </form>
+                </li>
             </ul>
         </nav>
     </header>
@@ -45,25 +47,22 @@
                     touch!<br></h1>
             </div>
         </section>
-        <section id="form-section">
-            <div>
-                <form action="success-get-in-touch.html" method="GET" id="form">
-                    <label for="name"></label>
-                    <input type="text" id="name" name="name" placeholder="Name*" required>
-                    <label for="email"></label>
-                    <input type="email" id="email" name="email" placeholder="Email*" required>
-                    <label for="subject"></label>
-                    <input type="text" id="subject" name="subject" placeholder="What would you like to discuss?*"
-                        required>
-                    <label for="message"></label>
-                    <textarea name="message" id="message" placeholder="Write your message here*" required></textarea>
-                    <br>
-                    <p>*Required field</p>
-                    <button type="reset">Reset</button>
-                    <button type="submit">Submit</button>
-                </form>
-            </div>
-        </section>
+        <div id="form-section">
+            <form action="success-get-in-touch.html" method="GET" id="form">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Name*" required>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Email*" required>
+                <label for="subject"></label>
+                <input type="text" id="subject" name="subject" placeholder="What would you like to discuss?*" required>
+                <label for="message"></label>
+                <textarea name="message" id="message" placeholder="Write your message here*" required></textarea>
+                <br>
+                <p>*Required field</p>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     </main>
 
     <!--Footer-->
