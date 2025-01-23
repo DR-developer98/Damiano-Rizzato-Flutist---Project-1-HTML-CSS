@@ -85,7 +85,7 @@ nav li a {
     font-size: 1.2rem;
 }
 
-nav li button {
+nav li input {
     background-color: var(--button-color);
     color: white;
     font-size: 1.2rem;
@@ -93,19 +93,18 @@ nav li button {
     border-radius: 5px;
     border: 2px solid var(--button-color);
     font-weight: bold;
+    margin-top: 2px;
 }
 
-nav li button:hover {
+nav li input:hover {
     background-color: white;
     color: var(--button-color);
     border-radius: 5px;
     border: 2px solid var(--button-color);
     font-weight: bold;
+    cursor: pointer;
 }
 
-nav button>a:hover {
-    color: var(--button-color);
-}
 
 nav>ul {
     padding-left: 0px;
@@ -246,6 +245,10 @@ main {
     border-radius: 5px;
 }
 
+.concert-text {
+    padding: 5px;
+}
+
 .concert-text>h2,
 .concert-text>p,
 .concert-text li {
@@ -261,28 +264,23 @@ main {
     margin-top: 4px;
 }
 
-.concert-text>button {
-    background-color: var(--button-color);
-    border-radius: 5px;
-    border: 2px solid var(--button-color);
+.button {
+    padding: 10px 12px;
+    font-size: 16px;
     font-weight: bold;
-    margin-top: 4px;
-    padding: 10px;
+    color: white;
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
 }
 
-.concert-text>button:hover {
+.button:hover {
     background-color: white;
     border: 2px solid var(--button-color);
     color: var(--button-color);
     font-weight: bold;
-}
-
-.concert-text a {
-    color: white;
-}
-
-.concert-text>button>a:hover {
-    color: var(--button-color);
 }
 
 /*RECORDINGS PAGE*/
@@ -333,6 +331,8 @@ main {
 }
 
 #video-section iframe {
+    /*replaces the obsolete "frameborder: 0" attribute*/
+    border: none;
     border-radius: 10px;
     width: 100%;
 }
@@ -418,6 +418,7 @@ main {
     border: 2px solid var(--button-color);
     color: var(--button-color);
     font-weight: bold;
+    cursor: pointer;
 }
 
 /*SUCCESS GET IN TOUCH PAGE*/
@@ -455,26 +456,26 @@ main {
     font-size: 1rem;
 }
 
-.wrapper button {
+.wrapper>form>input {
     background-color: var(--button-color);
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px;
     border-radius: 5px;
     border: 2px solid var(--button-color);
     font-weight: bold;
-    color: white;
-    margin-bottom: 5px;
-    padding: 10px;
+    margin: 4px auto;
 }
 
-.wrapper button:hover {
+.wrapper>form>input:hover {
     background-color: white;
-    border: 2px solid var(--button-color);
     color: var(--button-color);
+    border-radius: 5px;
+    border: 2px solid var(--button-color);
     font-weight: bold;
+    cursor: pointer;
 }
 
-.wrapper>button>a:hover {
-    color: var(--button-color);
-}
 
 /*FOOTER*/
 footer {
@@ -511,6 +512,7 @@ footer {
     border: 2px solid var(--button-color);
     color: var(--button-color);
     font-weight: bold;
+    cursor: pointer;
 }
 
 #social-medias {

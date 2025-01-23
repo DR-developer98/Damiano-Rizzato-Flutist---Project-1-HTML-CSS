@@ -103,11 +103,42 @@ All the fields must be filled in, in order to meet the form submission requireme
 <ul>
 <li>HTML
 <ul>
+<li>Changed the h2 heading in the "About" section of index.html to h1, since it wasn't semantically right.</li>
+<li>In recordings.html I removed the "frameboarder: 0" inline CSS style of the iframes and replaced it with external CSS</li>
+<li>Added closing tags/Removed unnecessary opening tags</li>
+<li>Substituted all the buttons nested inside anchor elements by using this code (See credits for the source)
+
+<img src="assets/images-for-README/display-link-as-button-solution.webp">
+
+</li>
 </ul>
 </li>
 <li>CSS</li>
 </ul>
 
+<h3>Lighthouse report</h3>
+
+<!-- Add screenshot -->
+
+<h3>Functional/Regression testing</h3>
+
+<table>
+<tr>
+<th>Action</th>
+<th>Expected behavior</th>
+<th>Pass/Fail</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 <h3>Unfixed bugs</h3>
 <h3>Deployment</h3>
@@ -123,6 +154,16 @@ The steps to deploy are as follows:
 <h2>Credits</h2>
 
 <h3>Content</h3>
+
+<ul>
+<li>Solution for fixing the a>button error the HTML Validator was pointing out was taken from <a href="https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link" target="_blank">Stackoverflow</a></li>
+<li>Code for making the "Buy tickets" links in the concerts.html page look like buttons while still opening on a new tab was taken from Microsoft-copilot, search query: "How to turn a link into a button?"</li>
+
+<img src="assets/images-for-README/code-link-turned-into-button-copilot.webp">
+
+<li>Code for structure navbar, nav-toggle, structure footer, position of hero-image and text overlay in the homepage was taken from the Love Running CI project</li>
+</ul>
+
 <h4>Technologies used</h4>
 <ul>
 <li>The logo was made using <a href="https://www.design.com/identity/account/signin?returnUrl=%2Fmaker%2Fmylogos%2Fdrafts%2F1a12edad-ae26-4e4e-ac1b-dafe6d2c9723%2Fdownload" target="_blank" aria-label="Sign in page Design.com">www.design.com</a></li>
