@@ -148,6 +148,12 @@ All the fields must be filled in, in order to meet the form submission requireme
 </tr>
 </table>
 
+<h3>Fixed bugs</h3>
+<ul>
+<li>In the navbar the navlinks and the get in touch button weren't aligned. 
+This was fixed by adding some padding-top to the links and by overriding this property for the get in touch button by using the pseudo class selector nav li:last-child. Source: Microsoft copilot, search query: "How not to apply a CSS rule to last child element?"</li>
+</ul>
+
 <h3>Unfixed bugs</h3>
 <h3>Deployment</h3>
 
