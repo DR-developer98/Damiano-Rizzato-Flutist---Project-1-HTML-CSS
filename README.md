@@ -123,6 +123,7 @@ All the fields must be filled in, in order to meet the form submission requireme
 
 <ul>
 <li>Added "link rel="preload" as="image" href="path-to-your-image.jpg"" to "head" element of all pages in order to improve the LCP. Integrating this pushed lighthouse performacen rate of the homepage up to 83%. Source: Microsoft copilot, search query: "What does it mean to "preload" an image to improve LCP?"</li>
+<li>Added width: 120px to logo in the navbar to improve Lighthouse performance score.</li>
 </ul>
 
 <!-- Add screenshot -->
