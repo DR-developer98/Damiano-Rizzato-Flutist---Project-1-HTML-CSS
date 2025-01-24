@@ -121,6 +121,10 @@ All the fields must be filled in, in order to meet the form submission requireme
 
 <h3>Lighthouse report</h3>
 
+<ul>
+<li>Added "link rel="preload" as="image" href="path-to-your-image.jpg"" to "head" element in order to improve the LCP of the homepage. Source: Microsoft copilot, search query: "What does it mean to "preload" an image to improve LCP?"</li>
+</ul>
+
 <!-- Add screenshot -->
 
 <h3>Functional/Regression testing</h3>
