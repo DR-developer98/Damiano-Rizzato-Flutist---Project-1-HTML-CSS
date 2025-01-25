@@ -67,7 +67,7 @@ The concerts page lists upcoming performances with details like venue, date, tim
 </ul> 
 <strong>Note:</strong> dates, times, programs and the musicians' names are all fictional, therefore any reference to real people and events is purely coincidental. This section will be updated with real information in the future.
 
-<img src="assets/images-for-README/concerts-page.webp">
+<img src="assets/images-for-README/Concerts-page.webp">
 
 <h3>Recordings</h3>
 The recordings page features four highlight recordings from Damiano's YouTube channel and a link to the full channel at the bottom. This section will regularly be updated with the flutist's latest recordings.
