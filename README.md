@@ -152,6 +152,7 @@ All the fields must be filled in, in order to meet the form submission requireme
 <ul>
 <li>In the navbar the navlinks and the get in touch button weren't aligned. 
 This was fixed by adding some padding-top to the links and by overriding this property for the get in touch button by using the pseudo class selector nav li:last-child. Source: Microsoft copilot, search query: "How not to apply a CSS rule to last child element?"</li>
+<li>The main heading in the recordings page wasn't the same size as the one in the concerts page, despite having set the same stle rule for it. This was fixed by changing the relationship #recordings>h1 (parent-child) to #recordings h1 (ancestor-descendant).</li>
 </ul>
 
 <h3>Unfixed bugs</h3>
