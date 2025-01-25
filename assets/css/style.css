@@ -330,8 +330,9 @@ main {
 }
 
 #video-section iframe {
-    /*replaces the obsolete "frameborder: 0" attribute*/
+    /*↓replaces the obsolete "frameborder: 0" attribute↓*/
     border: none;
+    /*↑replaces the obsolete "frameborder: 0" attribute↑*/
     border-radius: 10px;
     width: 100%;
 }

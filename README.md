@@ -75,8 +75,9 @@ The concerts page lists upcoming performances with details like venue, date, tim
 The recordings page features eight highlight recordings from Damiano's YouTube channel and a link to the full channel at the bottom. This section will regularly be updated with the flutist's latest recordings.
 This feature addresses user story #5, providing artistic directors and venues the possibility to easily access and review the latest performances and works by Damiano, helping them make informed decisions regarding potential bookings and collaborations. 
 
-<!-- Add screenshot definite recordings page -->
 <img src="assets/images-for-README/recordings-page.webp" style="width: 75%">
+
+<!-- Add picture link paragraph at the bottom of recordings page with link to YouTube channel -->
 
 <h3>Get in touch</h3>
 This page will allow primarily concert venue managers and artistic directors to get in touch with Damiano, in order to discuss concert and project ideas with him. This page consists of two elements:
@@ -95,37 +96,42 @@ All the fields must be filled in, in order to meet the form submission requireme
 <img src="assets/images-for-README/feedback-page-get-in-touch.webp" style="width: 75%">
 </ul>
 
-
-
-
-
-
 <h2>Testing</h2>
 <h3>Validator testing</h3>
 
 <ul>
 <li>HTML
 <ul>
-<li>Changed the h2 heading in the "About" section of index.html to h1, since it wasn't semantically right.</li>
-<li>In recordings.html I removed the "frameboarder: 0" inline CSS style of the iframes and replaced it with external CSS</li>
+<li>In recordings.html I removed the "frameboarder: 0" inline CSS style of the iframes and replaced it with external CSS "border: none."</li>
 <li>Added closing tags/Removed unnecessary opening tags</li>
-<li>Substituted all the buttons nested inside anchor elements by using this code (source: see credits)
+<li>Substituted the button mistakingly nested inside an anchor element (Get-in-touch button in navbar) by using the code hereinafter.
+<strong style="color: green">Credit:</strong> <a href="https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link" target="_blank">Stackoverflow</a>
 
 <img src="assets/images-for-README/display-link-as-button-solution.webp">
+<li>Since the abovementioned code doesn't allow to create buttons that open on a new tab, in order to make the "Buy tickets" buttons for the concerts page and the "Return to homepage" buttons for the feedback pages for newsletter and get-in-touch form, this code ↓ was used.
+<br>
+<strong style="color: green">Credit:</strong> <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_link_advanced" target="_blank">W3C School</a>
+</li>
+
+<img src="assets/images-for-README/code-link-turned-into-button-copilot.webp">
+
 
 </li>
-<li>In concerts.html, in the .concert-text section of each concert card, the Validator was giving this error message: "Error: No p element in scope but a p end tag seen.". This was caused by those p's incorrectly cointaining the block-level element ul. This was fixed by removing the p's as containers of those unordered lists (Source: see credits)</li>
+<li>In concerts.html, in the .concert-text section of each concert card, the Validator was giving this error message: "Error: No p element in scope but a p end tag seen.". This was caused by those "p"'s incorrectly cointaining the block-level element "ul". This was fixed by removing the "p"'s as containers of those unordered lists. <strong style="color: green">Credit:</strong> <a href="https://github.com/validator/validator/issues/1101">github.com/validator/validator/issues/1101</a></li>
 <li>In get-in-touch.html, the #form section was lacking a heading. This was solved by turning the section #form element into a div#form element and by removing the unnecessary direct div-child.</li>
 <li>With regard to the confirmation pages for the get in touch form and the newsletter signup section no errors were returned when passing through the official <a href="https://validator.w3.org/" target="_blank">W3C validator</a></li>
 </ul>
 </li>
-<li>CSS</li>
+<li>CSS
+<ul>
+<li>Removed padding-bottom: -10px from #newsletter section in footer, since negative padding values aren't allowed.</li></ul></li>
 </ul>
 
 <h3>Lighthouse report</h3>
 
 <ul>
-<li>Added "link rel="preload" as="image" href="path-to-your-image.jpg"" to "head" element of all pages in order to improve the LCP. Integrating this pushed lighthouse performacen rate of the homepage up to 83%. Source: Microsoft copilot, search query: "What does it mean to "preload" an image to improve LCP?"</li>
+<li>Added "link rel="preload" as="image" href="path-to-your-image.jpg"" to "head" element of all pages in order to improve the LCP. Integrating this pushed lighthouse performacen rate of the homepage up to 83%.<br>
+<strong style="color: green">Credit: </strong><a href="https://speedvitals.com/blog/preload-lcp-image/" target="_blank">speedvitals.com</a></li>
 <li>Added width: 120px to logo in the navbar to improve Lighthouse performance score.</li>
 </ul>
 
@@ -154,11 +160,11 @@ All the fields must be filled in, in order to meet the form submission requireme
 <h3>Fixed bugs</h3>
 <ul>
 <li>In the navbar the navlinks and the get in touch button weren't aligned. 
-This was fixed by adding some padding-top to the links and by overriding this property for the get in touch button by using the pseudo class selector nav li:last-child. Source: Microsoft copilot, search query: "How not to apply a CSS rule to last child element?"</li>
+This was fixed by adding some padding-top to the links and by overriding this property for the get in touch button by using the pseudo class selector nav li:last-child.<br>
+<strong style="color: green">Credit: </strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child" target="_blank">developer.mozilla.org</a></li>
 <li>The main heading in the recordings page wasn't the same size as the one in the concerts page, despite having set the same stle rule for it. This was fixed by changing the relationship #recordings>h1 (parent-child) to #recordings h1 (ancestor-descendant).</li>
 </ul>
 
-<h3>Unfixed bugs</h3>
 <h3>Deployment</h3>
 
 The site was deployed to GitHub pages. 
@@ -174,12 +180,6 @@ The steps to deploy are as follows:
 <h3>Content</h3>
 
 <ul>
-<li>Solution for fixing the a>button error the HTML Validator was pointing out was taken from <a href="https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link" target="_blank">Stackoverflow</a></li>
-<li>Solution for fixing WC3 HTML Validator error message "No p element in scope but a p end tag seen." taken from Microsoft Copilot, search query: "How to fix "Error: No p element in scope but a p end tag seen."?</li>
-<li>Code for making the "Buy tickets" links in the concerts.html page look like buttons while still opening on a new tab was taken from Microsoft-copilot, search query: "How to turn a link into a button?"</li>
-
-<img src="assets/images-for-README/code-link-turned-into-button-copilot.webp">
-
 <li>Code for structure navbar, nav-toggle, structure footer, position of hero-image and text overlay in the homepage was taken from the Love Running CI project</li>
 </ul>
 
