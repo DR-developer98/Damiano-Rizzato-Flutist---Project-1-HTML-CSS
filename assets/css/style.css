@@ -369,7 +369,7 @@ main {
 }
 
 #get-in-touch {
-    height: 600px;
+    min-height: 650px;
     width: 100%;
     background: url("../images/get-in-touch.webp") no-repeat center center/cover;
     position: relative;
