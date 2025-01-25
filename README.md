@@ -39,9 +39,10 @@ The foundation of this website is built on the following relevant user stories:
 The footer section, which appears on all website pages and is fully responsive on all major screen sizes, comprises two key elements:
 <ul>
 <li><strong>the newsletter section:</strong> accessible from any page via an in-page link ("Newsletter") in the navbar, this section includes a short call to action and an email input field for users to sign up. Clicking on "sign up" will redirect the user to a feedback page, with a short thank-you-for-signing-up text as well as a "Return to homepage" button.
-<strong>Note:</strong> on many websites, the feedback given to the users upon signing up for a newsletter is a strip of text appearing below the email input field. As this requires JavaScript and as I didn't possess the right set of skills at the time of me designing this website, I chose to create a whole feedback page<./li>
+<br>
+<strong style="color: red">Note:</strong> on many websites, the feedback given to the users upon signing up for a newsletter is a strip of text appearing below the email input field. As this requires JavaScript and as I didn't possess the right set of skills at the time of me designing this website, I chose to create a whole feedback page</li>
 
-<!-- Add image feedback page newsletter-->
+<img src="assets/images-for-README/Success-newsletter.webp" style="width: 75%">
 
 <li><strong>the social media section:</strong> this section includes links to all of the flutist's relevant social media sites. These links open in a new tab, ensuring easy navigation for the user.</li> 
 </ul>
@@ -53,12 +54,12 @@ The footer section addresses the third and fourth user stories, enabling users t
 The landing includes a photograph of Damiano with text overlay with his full name.
 This section introduces the user to the flutist with a photo from one of his performances.
 
-<!-- Add photo landing page -->
+<img src="assets/images-for-README/Landing-page.webp" style="width: 75%">
 
 <h3>About</h3>
 The About section, located in the homepage directly under the hero-image, serves the user in that it directly addresses the first user story, providing them with the flutist's background information. This section is accessible from all pages by means of "About" nav link.
 
-<img src="assets/images-for-README/About-section.webp">
+<img src="assets/images-for-README/About-section.webp" style="width: 75%">
 
 <h3>Concerts</h3>
 The concerts page lists upcoming performances with details like venue, date, time, program, and collaborators' names. Each card consists of two parts:
@@ -66,31 +67,32 @@ The concerts page lists upcoming performances with details like venue, date, tim
 <li>Venue picture, which upon clicking will redirect the user to the venue's homepage;</li>
 <li>Concert description section, which includes all useful information as well as a "Buy tickets" button that - currently - links to the venue's homepage. </li>
 </ul> 
-<strong>Note:</strong> dates, times, programs and the musicians' names are all fictional, therefore any reference to real people and events is purely coincidental. This section will be updated with real events in the future.
+<strong style="color: red">Note:</strong> dates, times, programs and the musicians' names are all fictional, therefore any reference to real people and events is purely coincidental. This section will be updated with real events in the future.
 
-<!-- Add screenshot definite concerts page -->
+<img src="assets/images-for-README/Concerts-page.webp" style="width: 75%">
 
 <h3>Recordings</h3>
 The recordings page features eight highlight recordings from Damiano's YouTube channel and a link to the full channel at the bottom. This section will regularly be updated with the flutist's latest recordings.
 This feature addresses user story #5, providing artistic directors and venues the possibility to easily access and review the latest performances and works by Damiano, helping them make informed decisions regarding potential bookings and collaborations. 
 
 <!-- Add screenshot definite recordings page -->
+<img src="assets/images-for-README/recordings-page.webp" style="width: 75%">
 
 <h3>Get in touch</h3>
 This page will allow primarily concert venue managers and artistic directors to get in touch with Damiano, in order to discuss concert and project ideas with him. This page consists of two elements:
 <ul>
-<li>a hero image with a text overlay</li>
+<li><strong>a hero image with a text overlay</strong></li>
 
-<img src="assets/images-for-README/get-in-touch-hero-image.webp">
+<img src="assets/images-for-README/get-in-touch-hero-image.webp" style="width: 75%">
 
-<li>the get-in-touch form, where the user will be able to specify the subject of their query/proposal and to type out their message in the textarea.
+<li><strong>the get-in-touch form</strong>, where the user will be able to specify the subject of their query/proposal and to type out their message in the textarea.
 
-<img src="assets/images-for-README/get-in-touch-form.webp">
+<img src="assets/images-for-README/get-in-touch-form.webp" style="width: 75%">
 
 All the fields must be filled in, in order to meet the form submission requirements. After clicking on submit, the user will be redirected to a feedback page, which comprises a short thank-you-for-reaching-out text as well as a "Return to homepage" button.
 </li>
 
-<img src="assets/images-for-README/feedback-page-get-in-touch.webp">
+<img src="assets/images-for-README/feedback-page-get-in-touch.webp" style="width: 75%">
 </ul>
 
 
