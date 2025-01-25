@@ -306,7 +306,7 @@ main {
     justify-content: space-between;
 }
 
-#recordings>h1 {
+#recordings h1 {
     font-size: 200%;
 }
 
