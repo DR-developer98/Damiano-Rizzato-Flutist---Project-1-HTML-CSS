@@ -301,25 +301,13 @@ main {
     background-attachment: fixed;
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #recordings>h1 {
     font-size: 200%;
-}
-
-#recordings p {
-    color: var(--primary-color);
-    font-weight: bold;
-    margin-bottom: 2px;
-}
-
-#recordings p>a {
-    text-decoration: none;
-}
-
-
-#recordings p>a:hover {
-    color: var(--button-color);
 }
 
 #recordings h1 {
@@ -327,9 +315,7 @@ main {
 }
 
 #video-section {
-    height: 90%;
-    width: 100%;
-    margin-right: 5%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -343,7 +329,8 @@ main {
     border-radius: 10px;
     padding: 10px;
     text-align: start;
-    flex-basis: 350px;
+    width: 100%;
+    max-width: 400px;
 }
 
 #video-section iframe {
@@ -356,6 +343,20 @@ main {
 #video-section h2 {
     color: white;
     font-size: 90%;
+}
+
+#cta-yt-channel {
+    background-color: rgb(3, 18, 29);
+    padding: 10px;
+    color: white
+}
+
+#cta-yt-channel a:hover {
+    color: var(--button-color);
+}
+
+#cta-yt-channel a:visited {
+    color: lightgrey;
 }
 
 /*GET IN TOUCH PAGE*/
@@ -646,7 +647,7 @@ footer {
 
     /*RECORDINGS PAGE*/
     #video-section>div {
-        flex-basis: 45%;
+        width: 350px;
     }
 
     /*GET IN TOUCH PAGE*/
@@ -686,10 +687,10 @@ footer {
     }
 
     /*RECORDINGS PAGE*/
-    #video-section>div {
-        flex-basis: 40%;
+    #video-section {
+        padding: 20px;
+        gap: 20px;
     }
-
 
     /*GET IN TOUCH PAGE*/
     /*get-in-touch-section*/
@@ -740,21 +741,11 @@ footer {
     .align-right {
         min-width: 55vw;
     }
-
-    /*RECORDINGS PAGE*/
-    #video-section>div {
-        flex-basis: 35%;
-    }
 }
 
 
 /*Media query: xx-large screens (1400px and up)*/
 @media screen and (min-width: 1400px) {
-
-    /*RECORDINGS PAGE*/
-    #video-section>div {
-        flex-basis: 32%;
-    }
 
     /*CONCERTS PAGE*/
     .align-left {
