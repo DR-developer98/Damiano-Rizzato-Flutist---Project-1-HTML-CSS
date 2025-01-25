@@ -48,7 +48,7 @@ a {
 }
 
 /*HEADER STYLES*/
-header {
+#header {
     background-color: var(--primary-color);
     /*Prevents heading from sticking to side of the screen*/
     padding: 0 1rem;
@@ -188,7 +188,7 @@ main {
 }
 
 
-#about h1 {
+#about h2 {
     margin: 10px auto;
     text-decoration: underline;
     text-align: center;
