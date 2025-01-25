@@ -21,7 +21,7 @@ The foundation of this website is built on the following relevant user stories:
 <li>As a regular concert attendee, I want to see a list of upcoming performances with clear details about time, date, venue, and program, so I can find events that interest me and fit my schedule.</li>
 <li>As a classical music enthusiast, I want to subscribe to Damiano's newsletter, so I can receive updates on his upcoming performances, new recordings, and behind-the-scenes insights directly in my inbox.</li>
 <li>As a classical music enthusiast, I want easy access to Damiano's social media profiles, so I can stay updated with his latest activities, performances, and content on various platforms.</li>
-<li>As a concert venue, I want to listen to some of Damiano's recordings, so I can determine if he's a suitable fit for the concert I am organizing.</li>
+<li>As the manager of a concert venue, I want to listen to some of Damiano's recordings, so I can determine if he's a good fit for the concert I am organizing.</li>
 <li>As an artistic director, I want to get in touch with Damiano, so I can discuss concert and project ideas with him.</li>
 </ol>
 
@@ -38,7 +38,8 @@ The foundation of this website is built on the following relevant user stories:
 <h3>Footer</h3>
 The footer section, which appears on all website pages and is fully responsive on all major screen sizes, comprises two key elements:
 <ul>
-<li><strong>the newsletter section:</strong> accessible from any page via an in-page link ("Newsletter") in the navbar, this section includes a short call to action and an email input field for users to sign up. Clicking on "sign up" will redirect the user to a feedback page, with a "Return to homepage" button.</li>
+<li><strong>the newsletter section:</strong> accessible from any page via an in-page link ("Newsletter") in the navbar, this section includes a short call to action and an email input field for users to sign up. Clicking on "sign up" will redirect the user to a feedback page, with a short thank-you-for-signing-up text as well as a "Return to homepage" button.
+<strong>Note:</strong> on many websites, the feedback given to the users upon signing up for a newsletter is a strip of text appearing below the email input field. As this requires JavaScript and as I didn't possess the right set of skills at the time of me designing this website, I chose to create a whole feedback page<./li>
 
 <!-- Add image feedback page newsletter-->
 
@@ -60,23 +61,23 @@ The About section, located in the homepage directly under the hero-image, serves
 <img src="assets/images-for-README/About-section.webp">
 
 <h3>Concerts</h3>
-The concerts page lists upcoming performances with details like venue, date, time, program, and other musicians. Each card consistst of two parts:
+The concerts page lists upcoming performances with details like venue, date, time, program, and collaborators' names. Each card consists of two parts:
 <ul>
-<li>Venue picture, which if clicked links to the venue's homepage;</li>
-<li>Concert description section, which includes the abovementioned information as well as a "Buy tickets" button that - currently - links to the venue's homepage. </li>
+<li>Venue picture, which upon clicking will redirect the user to the venue's homepage;</li>
+<li>Concert description section, which includes all useful information as well as a "Buy tickets" button that - currently - links to the venue's homepage. </li>
 </ul> 
-<strong>Note:</strong> dates, times, programs and the musicians' names are all fictional, therefore any reference to real people and events is purely coincidental. This section will be updated with real information in the future.
+<strong>Note:</strong> dates, times, programs and the musicians' names are all fictional, therefore any reference to real people and events is purely coincidental. This section will be updated with real events in the future.
 
-<img src="assets/images-for-README/Concerts-page.webp">
+<!-- Add screenshot definite concerts page -->
 
 <h3>Recordings</h3>
-The recordings page features four highlight recordings from Damiano's YouTube channel and a link to the full channel at the bottom. This section will regularly be updated with the flutist's latest recordings.
-This feature addresses user story #5, providing artistic directors and venues the possibility to 
+The recordings page features eight highlight recordings from Damiano's YouTube channel and a link to the full channel at the bottom. This section will regularly be updated with the flutist's latest recordings.
+This feature addresses user story #5, providing artistic directors and venues the possibility to easily access and review the latest performances and works by Damiano, helping them make informed decisions regarding potential bookings and collaborations. 
 
-<img src="assets/images-for-README/recordings-page.webp">
+<!-- Add screenshot definite recordings page -->
 
 <h3>Get in touch</h3>
-This page will allow primarily venues and artistic directors to get in touch with Damiano, in order to discuss concert and project ideas with him. This page consists of two elements:
+This page will allow primarily concert venue managers and artistic directors to get in touch with Damiano, in order to discuss concert and project ideas with him. This page consists of two elements:
 <ul>
 <li>a hero image with a text overlay</li>
 
@@ -86,7 +87,7 @@ This page will allow primarily venues and artistic directors to get in touch wit
 
 <img src="assets/images-for-README/get-in-touch-form.webp">
 
-All the fields must be filled in, in order to meet the form submission requirements. After clicking on submit, the user will be redirected to a feedback page, which comprises a "Return to homepage button".
+All the fields must be filled in, in order to meet the form submission requirements. After clicking on submit, the user will be redirected to a feedback page, which comprises a short thank-you-for-reaching-out text as well as a "Return to homepage" button.
 </li>
 
 <img src="assets/images-for-README/feedback-page-get-in-touch.webp">
@@ -126,7 +127,7 @@ All the fields must be filled in, in order to meet the form submission requireme
 <li>Added width: 120px to logo in the navbar to improve Lighthouse performance score.</li>
 </ul>
 
-<!-- Add screenshot -->
+<!-- Add screenshots Lighthouse report for all pages -->
 
 <h3>Functional/Regression testing</h3>
 
