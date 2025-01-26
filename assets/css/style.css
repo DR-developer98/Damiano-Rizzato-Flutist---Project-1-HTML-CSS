@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /*Import Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
@@ -16,15 +23,21 @@
 * {
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 /*GLOBAL STYLES*/
 body {
     /*↓ CREDIT: Love Running CI Project ↓*/
     min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     /*↑ CREDIT: Love Running CI Project ↑*/
 }
 
@@ -56,10 +69,17 @@ a {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0px 2px 2px #02101a;
+    -webkit-box-shadow: 0px 2px 2px #02101a;
+            box-shadow: 0px 2px 2px #02101a;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     /*↑ CREDIT: Love Running CI Project ↑*/
 }
 
@@ -125,7 +145,8 @@ nav {
     /*↓ CREDIT: Love Running CI Project ↓*/
     position: absolute;
     width: 100%;
-    box-shadow: 0px 2px 2px #02101a;
+    -webkit-box-shadow: 0px 2px 2px #02101a;
+            box-shadow: 0px 2px 2px #02101a;
     /*↑ CREDIT: Love Running CI Proejct ↑*/
     padding-left: 15px;
     background-color: var(--primary-color);
@@ -155,7 +176,9 @@ nav {
 main {
     background-color: lightgrey;
     /*↓ CREDIT: Love Running CI Project ↓*/
-    flex: 1 0 auto;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
     margin-top: 57px;
     /*↑ CREDIT: Love Running CI Project ↑*/
 }
@@ -223,17 +246,24 @@ main {
     margin-bottom: 20px;
     margin-right: 5px;
     margin-left: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .align-left {
-    align-self: flex-start;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
     min-width: 70vw;
 }
 
 .align-right {
-    align-self: flex-end;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
     min-width: 70vw;
 }
 
@@ -307,9 +337,16 @@ main {
     background-attachment: fixed;
     height: 100%;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 #recordings h1 {
@@ -322,10 +359,18 @@ main {
 
 #video-section {
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 
 #video-section>div {
@@ -450,10 +495,16 @@ main {
     background: url("../images/get-in-touch.webp") no-repeat center center/cover;
     height: 600px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .wrapper {
@@ -505,10 +556,16 @@ main {
     background: url("../images/concerts-recordings-bg.webp") no-repeat center center/cover;
     height: 600px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 /*FOOTER*/
@@ -552,8 +609,12 @@ footer {
     /*↓ CREDIT: Love Running CI Project ↓*/
     text-align: center;
     padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 
 #social-medias i {
@@ -579,12 +640,17 @@ footer {
     nav {
         display: block;
         position: relative;
-        box-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
     }
 
     /*Displays nav items in a row*/
     nav>ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -607,14 +673,20 @@ footer {
 
     /*About-section*/
     #biography {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
 
     #biography>div {
         /*Displays biography paragraphs on two columns*/
-        flex: 1 1 40%;
-        box-sizing: border-box;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 40%;
+                flex: 1 1 40%;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
         padding: 10px;
         /*Makes biography text stand out more*/
         font-size: 1.2rem;
@@ -628,15 +700,25 @@ footer {
 
     .align-left {
         /*In order to display concert image and description next to each other*/
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         width: 55vw;
     }
 
     .align-right {
         /*In order to display concert image and description next to each other*/
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         width: 55vw;
     }
 
