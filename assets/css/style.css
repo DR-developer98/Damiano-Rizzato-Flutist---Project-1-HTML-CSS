@@ -403,6 +403,10 @@ main {
     color: white
 }
 
+#cta-yt-channel a {
+    color: lightgrey;
+}
+
 #cta-yt-channel a:hover {
     color: var(--button-color);
 }
