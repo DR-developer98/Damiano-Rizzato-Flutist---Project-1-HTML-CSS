@@ -403,7 +403,11 @@ main {
     color: white
 }
 
-#cta-yt-channel a {
+#cta-yt-channel a:link {
+    color: grey;
+}
+
+#cta-yt-channel a:visited {
     color: lightgrey;
 }
 
@@ -411,8 +415,9 @@ main {
     color: var(--button-color);
 }
 
-#cta-yt-channel a:visited {
-    color: lightgrey;
+
+#cta-yt-channel a:active {
+    color: var(--button-color);
 }
 
 /*GET IN TOUCH PAGE*/
