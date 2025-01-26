@@ -22,7 +22,6 @@
 /*GLOBAL STYLES*/
 body {
     /*↓ CREDIT: Love Running CI Project ↓*/
-    /*Pushes footer to the bottom*/
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -118,7 +117,6 @@ nav>ul {
 .active {
     border-bottom: 2px solid white;
 }
-
 /*↑ CREDIT: Love Running CI Project ↑*/
 
 
@@ -151,7 +149,6 @@ nav {
 #nav-toggle:checked~nav {
     display: block;
 }
-
 /*↑ CREDIT: Love Running CI Project ↑*/
 
 /*MAIN STYLES*/
@@ -600,7 +597,6 @@ footer {
     .nav-toggle-label {
         display: none;
     }
-
     /*↑ CREDIT: Love Running CI Project ↑*/
 
     /*HOMEPAGE*/
@@ -686,7 +682,6 @@ footer {
     nav li>a:hover {
         border-bottom: 1px solid white;
     }
-
     /*↑ CREDIT: Love Running CI Project *↑/
 
     /*HOMEPAGE*/
