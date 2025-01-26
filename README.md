@@ -163,6 +163,17 @@ All the fields must be filled in, in order to meet the form submission requireme
 This was fixed by adding some padding-top to the links and by overriding this property for the get in touch button by using the pseudo class selector nav li:last-child.<br>
 <strong style="color: green">Credit: </strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child" target="_blank">developer.mozilla.org</a></li>
 <li>The main heading in the recordings page wasn't the same size as the one in the concerts page, despite having set the same stle rule for it. This was fixed by changing the relationship #recordings>h1 (parent-child) to #recordings h1 (ancestor-descendant).</li>
+<li>In the recordings page, the link to the YouTube channel in the call-to-action paragraph at the bottom of the page wasn't changing color when :hover nor when :visited. This was due to the relevant pseudo-classes not being in the right order. This was fixed by applying the LoVe HaTe mnemonic:
+<br>
+L: a:link - Default state of the link.
+
+V: a:visited - After the link has been clicked.
+
+H: a:hover - When the user hovers over the link.
+
+A: a:active - When the link is being clicked.
+<br>
+<strong style="color: green">Credit:</strong> <a href="https://css-tricks.com/snippets/css/link-pseudo-classes-in-order/" target="_blank">css-tricks.com</a></li>
 </ul>
 
 <h3>Unfixed bugs</h3>
@@ -186,7 +197,8 @@ The steps to deploy are as follows:
 <h3>Content</h3>
 
 <ul>
-<li>Code for structure navbar, nav-toggle, structure footer, position of hero-image and text overlay in the homepage was taken from the Love Running CI project</li>
+<li>Code for structure navbar, nav-toggle, structure footer, position of hero-image and text overlay in the homepage was taken from the Love Running CI project. For detailed source referencing, refer to index.html and style.css.</li>
+<li>Cursor: pointer property added to website buttons was taken from <a href="https://www.w3schools.com/cssref/pr_class_cursor.php">W3School</a>.</li>
 </ul>
 
 <h4>Technologies used</h4>
