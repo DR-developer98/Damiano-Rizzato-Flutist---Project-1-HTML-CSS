@@ -165,6 +165,12 @@ This was fixed by adding some padding-top to the links and by overriding this pr
 <li>The main heading in the recordings page wasn't the same size as the one in the concerts page, despite having set the same stle rule for it. This was fixed by changing the relationship #recordings>h1 (parent-child) to #recordings h1 (ancestor-descendant).</li>
 </ul>
 
+<h3>Unfixed bugs</h3>
+<ul>
+<li>On mobile phones the menu doesn't automatically collapse when clicking on a inpage link. This means that pressing/clicking on "Newsletter" on any page will direct the user to the footer, but the menu won't collapse. The same applies to "About" in the homepage. 
+This can be fixed by using JavaScript, which falls outside of the scope of this project.</li>
+</ul>
+
 <h3>Deployment</h3>
 
 The site was deployed to GitHub pages. 
