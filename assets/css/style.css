@@ -21,10 +21,12 @@
 
 /*GLOBAL STYLES*/
 body {
+    /*↓ CREDIT: Love Running CI Project ↓*/
     /*Pushes footer to the bottom*/
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /*↑ CREDIT: Love Running CI Project ↑*/
 }
 
 ul>li {
@@ -50,19 +52,16 @@ a {
 /*HEADER STYLES*/
 #header {
     background-color: var(--primary-color);
-    /*Prevents heading from sticking to side of the screen*/
+    /*↓ CREDIT: Love Running CI Project ↓*/
     padding: 0 1rem;
-    /*For fixed header*/
     position: fixed;
-    /*Header always visible*/
     z-index: 99;
     width: 100%;
-    /*Box shadow*/
     box-shadow: 0px 2px 2px #02101a;
-    /*Part 1 code for navbar dropdown menu*/
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /*↑ CREDIT: Love Running CI Project ↑*/
 }
 
 #logo {
@@ -78,7 +77,8 @@ nav li {
     padding-top: 5px;
 }
 
-/*Overrides abovementioned padding-top to make sure navbar links and get in touch button are aligned*/
+/*Overrides abovementioned padding-top to make sure 
+navbar links and get in touch button are aligned*/
 nav li:last-child {
     padding-top: 0;
 }
@@ -114,24 +114,30 @@ nav>ul {
     padding-left: 0px;
 }
 
+/*↓ CREDIT: Love Running CI Project ↓*/
 .active {
     border-bottom: 2px solid white;
 }
+/*↑ CREDIT: Love Running CI Project ↑*/
+
 
 /*Navbar dropdown menu*/
 nav {
+    /*↓ CREDIT: Love Running CI Project ↓*/
     position: absolute;
     width: 100%;
+    box-shadow: 0px 2px 2px #02101a;
+    /*↑ CREDIT: Love Running CI Proejct ↑*/
     padding-left: 15px;
     background-color: var(--primary-color);
-    box-shadow: 0px 2px 2px #02101a;
-    /*Part 2 code dropdown menu*/
+    /*↓ CREDIT: Love Running CI Project ↓*/
     left: 0;
     display: none;
     top: 100%;
+    /*↑ CREDIT: Love Running CI Project ↑*/
 }
 
-/*Part 3 code dropdown menu*/
+/*↓ CREDIT: Love Running CI Project ↓*/
 #nav-toggle {
     display: none;
 }
@@ -144,14 +150,17 @@ nav {
 #nav-toggle:checked~nav {
     display: block;
 }
+/*↑ CREDIT: Love Running CI Project ↑*/
 
 /*MAIN STYLES*/
 main {
     background-color: lightgrey;
+    /*↓ CREDIT: Love Running CI Project ↓*/
     /*Main elment takes up any surplus space to push footer down*/
     flex: 1 0 auto;
     /*Makes main element visible again, because of header's position: absolute*/
     margin-top: 57px;
+    /*↑ CREDIT: Love Running CI Project ↑*/
 }
 
 /*HOMEPAGE*/
