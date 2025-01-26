@@ -128,9 +128,10 @@ All the fields must be filled in, in order to meet the form submission requireme
 </ul>
 
 <h3>Lighthouse report</h3>
+<img src="assets/images-for-README/Lighthouse-report.webp">
 
 <ul>
-<li>Added "link rel="preload" as="image" href="path-to-your-image.jpg"" to "head" element of all pages in order to improve the LCP. Integrating this pushed lighthouse performacen rate of the homepage up to 83%.<br>
+<li>Added "link rel="preload" as="image" href="path-to-your-image.jpg"" to "head" element of all pages in order to improve the LCP. Integrating this pushed lighthouse performacen rate.<br>
 <strong style="color: green">Credit: </strong><a href="https://speedvitals.com/blog/preload-lcp-image/" target="_blank">speedvitals.com</a></li>
 <li>Added width: 120px to logo in the navbar to improve Lighthouse performance score.</li>
 </ul>
@@ -144,6 +145,186 @@ All the fields must be filled in, in order to meet the form submission requireme
 <th>Action</th>
 <th>Expected behavior</th>
 <th>Pass/Fail</th>
+</tr>
+<tr>
+<td>Visit <a href="https://dr-developer98.github.io/Damiano-Rizzato-Flutist---Project-1-HTML-CSS/">Damiano Rizzato - Flutist</a></td>
+<td>Land on hero-image section in the homepage</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>While in the homepage, click on "Home" in the navbar</td>
+<td>Rerender the page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>While in the homepage, click on the Logo</td>
+<td>Rerender the page and land on hero-image section</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>In the homepage, click on "About" navlink</td>
+<td>Move user to About section in the homepage</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Newsletter" navlink from any page</td>
+<td>Move user to footer/newsletter section</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>In the homepage click on Logo</td>
+<td>Rerender the page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>While in the About section, click on Logo</td>
+<td>Rerender the homepage and land on hero-image section</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on logo from any page</td>
+<td>Redirect to homepage</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "About" navlink from any page</td>
+<td>Redirect to About section in home page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on a social media icon in footer from any page</td>
+<td>Open homepage respective social media network in a new tab</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Sign up!" in footer newsletter section from any page</td>
+<td>Prompt to input an e-mail address</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Input an e-mail address in the newsletter section and click on Sign up! from any page</td>
+<td>Redirect to Feedback page newsletter</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Return to home page" button in feedback page newsletter</td>
+<td>Redirect to homepage</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Concerts" in navbar from any page but "Concerts" page</td>
+<td>Redirect to Concerts page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Concerts" navlink while in the Concerts page</td>
+<td>Rerender Concerts page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>In Concerts page click on any venue image</td>
+<td>Open homepage of respective venue in a new tab</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>In Concerts page click on "Buy tickets" in any of the cards</td>
+<td>Open homepage of respective venue in a new tab</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Recordings" navlink from any page but Recordings page</td>
+<td>Redirect to Recordings page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Recordings" navlink from Recordings page</td>
+<td>Rerender Recordings page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>In Recordings page click on any video</td>
+<td>Start playing video with controls (volume, mute/unmute, pause)</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>In Recordings page click on "YouTube channel" in paragraph under video list</td>
+<td>Open Damiano Rizzato's YouTube channel in a new tab</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Get in touch" button from any page but Get in touch page</td>
+<td>Redirect to Get in touch page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Get in touch" button from Get in touch page</td>
+<td>Rerender Get in touch page and land on hero-image section</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td><strong>GET IN TOUCH form</strong></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Click on Submit without filling in any field</td>
+<td>Prompt to fill in a Name</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Fill in Name and click on Submit</td>
+<td>Prompt to fill in an Email address</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Fill in Name and Email and click on Submit</td>
+<td>Prompt to fill in a Subject</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Fill in Name, Email and Subject and click on Submit</td>
+<td>Prompt to fill in a message in the textarea</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Fill in all form fields and click on Submit</td>
+<td>Redirect to feedback page for the Get in touch form</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Fill in some/all fields and click on Reset</td>
+<td>Clear all filled in fields</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>In the feedback page for the Get in touch form click on "Return to homepage" button</td>
+<td>Redirect to homepage</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>In the feedback page for the Newsletter signup form click on "Return to homepage" button</td>
+<td>Redirect to homepage</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td></td>
