@@ -158,9 +158,7 @@ nav {
 main {
     background-color: lightgrey;
     /*↓ CREDIT: Love Running CI Project ↓*/
-    /*Main elment takes up any surplus space to push footer down*/
     flex: 1 0 auto;
-    /*Makes main element visible again, because of header's position: absolute*/
     margin-top: 57px;
     /*↑ CREDIT: Love Running CI Project ↑*/
 }
@@ -168,17 +166,21 @@ main {
 /*HOMEPAGE*/
 /*Hero-section*/
 #hero {
+    /*↓ CREDIT: Love Running CI Project ↓*/
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
+    /*↑ CREDIT: Love Running CI project ↑*/
 }
 
 #page-title {
+    /*↓ CREDIT: Love Running CI Project ↓*/
+    position: absolute;
+    /*↑ CREDIT: Love Running Ci Project ↑*/
     background-color: rgba(4, 28, 44, 0.7);
     font-size: 1.6rem;
     text-align: center;
-    position: absolute;
     top: 15px;
     width: 80%;
 }
@@ -550,6 +552,7 @@ footer {
 }
 
 #social-medias {
+    /*↓ CREDIT: Love Running CI Project ↓*/
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -560,6 +563,7 @@ footer {
     font-size: 160%;
     padding: 5%;
     color: white;
+    /*↑ CREDIT: Love Running CI Project ↑*/
 }
 
 #copyright {
@@ -596,6 +600,7 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
     /*↑ CREDIT: Love Running CI Project ↑*/
 
     /*HOMEPAGE*/
@@ -681,6 +686,7 @@ footer {
     nav li>a:hover {
         border-bottom: 1px solid white;
     }
+
     /*↑ CREDIT: Love Running CI Project *↑/
 
     /*HOMEPAGE*/
