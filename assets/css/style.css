@@ -118,6 +118,7 @@ nav>ul {
 .active {
     border-bottom: 2px solid white;
 }
+
 /*↑ CREDIT: Love Running CI Project ↑*/
 
 
@@ -150,6 +151,7 @@ nav {
 #nav-toggle:checked~nav {
     display: block;
 }
+
 /*↑ CREDIT: Love Running CI Project ↑*/
 
 /*MAIN STYLES*/
@@ -572,6 +574,7 @@ footer {
 @media screen and (min-width: 768px) {
 
     /*HEADER*/
+    /*↓ CREDIT: Love Running CI Project ↓*/
     nav {
         display: block;
         position: relative;
@@ -589,10 +592,11 @@ footer {
         padding-left: 1rem;
     }
 
-    /*Hides menu burger icons*/
+    /*Hides menu burger icon*/
     .nav-toggle-label {
         display: none;
     }
+    /*↑ CREDIT: Love Running CI Project ↑*/
 
     /*HOMEPAGE*/
     /*Hero-section*/
@@ -673,10 +677,11 @@ footer {
 @media screen and (min-width: 992px) {
 
     /*HEADER*/
-    /*rules for underlined navbar links when hovered over*/
+    /*↓ CREDIT: Love Running CI Project ↓*/
     nav li>a:hover {
         border-bottom: 1px solid white;
     }
+    /*↑ CREDIT: Love Running CI Project *↑/
 
     /*HOMEPAGE*/
     #page-title {
