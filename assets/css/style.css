@@ -736,7 +736,7 @@ footer {
     }
 
     .concert-image img {
-        padding-top: 40px;
+        padding-top: 75px;
         padding-right: 10px;
         width: 100%;
     }
@@ -794,6 +794,11 @@ footer {
         gap: 20px;
     }
 
+    /*CONCERTS PAGE*/
+    .concert-image img {
+        padding-top: 54px;
+    }
+
     /*GET IN TOUCH PAGE*/
     /*get-in-touch-section*/
     #get-in-touch {
@@ -837,6 +842,10 @@ footer {
     }
 
     /*CONCERTS PAGE*/
+    .concert-image img {
+        padding-top: 45px;
+    }
+
     .align-left {
         min-width: 60vw;
     }
