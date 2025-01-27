@@ -859,6 +859,11 @@ footer {
 /*Media query: xx-large screens (1400px and up)*/
 @media screen and (min-width: 1400px) {
 
+    /*HOMEPAGE*/
+    #hero {
+        height: 1000px;
+    }
+
     /*CONCERTS PAGE*/
     .align-left {
         min-width: 50vw;

@@ -182,7 +182,7 @@ For responsiveness and tests on devices larger than the ones mentioned above I u
 
 <img src="assets/images-for-README/Lighthouse-report.webp">
 
-<h3>Functional/Regression testing</h3>
+<h3>Manual testing</h3>
 
 <table>
 <tr>
@@ -196,28 +196,58 @@ For responsiveness and tests on devices larger than the ones mentioned above I u
 <td>Pass</td>
 </tr>
 <tr>
-<td>While in the homepage, click on "Home" in the navbar</td>
+<td>NAVIGATION MENU ON MOBILE PHONES</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Click on the burger icon from the Homepage, Recordings, Concerts, Get in touch, Feedback get in touch and Feedback newsletter</td>
+<td>Display whole Menu with all navlinks stacked on top of each other</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on the burger icon with the menu fully displayed from Homepage, Recordings, Concerts, Get in touch, Feedback get in touch and Feedback newsletter</td>
+<td>Collapse the dropdown menu</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td><strong>HOMEPAGE</strong></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Hover over "Home" navlink</td>
+<td>Slim down the Home underlining</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Home" in the navbar</td>
 <td>Rerender the page</td>
 <td>Pass</td>
 </tr>
 <tr>
-<td>While in the homepage, click on the Logo</td>
+<td>Click on the Logo</td>
 <td>Rerender the page and land on hero-image section</td>
 <td>Pass</td>
 </tr>
 <tr>
-<td>In the homepage, click on "About" navlink</td>
+<td>Hover over "About", "Newsletter", "Concerts", "Recordings"</td>
+<td>A white underlining appears under the hovered over navlink</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Hover over "Get in touch" button</td>
+<td>Maintain button brown borders, change background-color to white and text-color to brown</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "About" navlink</td>
 <td>Move user to About section in the homepage</td>
 <td>Pass</td>
 </tr>
 <tr>
-<td>Click on "Newsletter" navlink from any page</td>
-<td>Move user to footer/newsletter section</td>
-<td>Pass</td>
-</tr>
-<tr>
-<td>In the homepage click on Logo</td>
-<td>Rerender the page</td>
+<td>Click on "Newsletter" navlink</td>
+<td>Move user to footer/newsletter section while staying in the homepage</td>
 <td>Pass</td>
 </tr>
 <tr>
@@ -226,83 +256,213 @@ For responsiveness and tests on devices larger than the ones mentioned above I u
 <td>Pass</td>
 </tr>
 <tr>
-<td>Click on logo from any page</td>
-<td>Redirect to homepage</td>
-<td>Pass</td>
-</tr>
-<tr>
-<td>Click on "About" navlink from any page</td>
-<td>Redirect to About section in home page</td>
-<td>Pass</td>
-</tr>
-<tr>
-<td>Click on a social media icon in footer from any page</td>
-<td>Open homepage respective social media network in a new tab</td>
-<td>Pass</td>
-</tr>
-<tr>
-<td>Click on "Sign up!" in footer newsletter section from any page</td>
-<td>Prompt to input an e-mail address</td>
-<td>Pass</td>
-</tr>
-<tr>
-<td>Input an e-mail address in the newsletter section and click on Sign up! from any page</td>
-<td>Redirect to Feedback page newsletter</td>
-<td>Pass</td>
-</tr>
-<tr>
-<td>Click on "Return to home page" button in feedback page newsletter</td>
-<td>Redirect to homepage</td>
-<td>Pass</td>
-</tr>
-<tr>
-<td>Click on "Concerts" in navbar from any page but "Concerts" page</td>
+<td>Click on "Concerts" navlink</td>
 <td>Redirect to Concerts page</td>
 <td>Pass</td>
 </tr>
 <tr>
-<td>Click on "Concerts" navlink while in the Concerts page</td>
-<td>Rerender Concerts page</td>
-<td>Pass</td>
-</tr>
-<tr>
-<td>In Concerts page click on any venue image</td>
-<td>Open homepage of respective venue in a new tab</td>
-<td>Pass</td>
-</tr>
-<tr>
-<td>In Concerts page click on "Buy tickets" in any of the cards</td>
-<td>Open homepage of respective venue in a new tab</td>
-<td>Pass</td>
-</tr>
-<tr>
-<td>Click on "Recordings" navlink from any page but Recordings page</td>
+<td>Click on "Recordings" navlink</td>
 <td>Redirect to Recordings page</td>
 <td>Pass</td>
 </tr>
 <tr>
-<td>Click on "Recordings" navlink from Recordings page</td>
-<td>Rerender Recordings page</td>
-<td>Pass</td>
-</tr>
-<tr>
-<td>In Recordings page click on any video</td>
-<td>Start playing video with controls (volume, mute/unmute, pause)</td>
-<td>Pass</td>
-</tr>
-<tr>
-<td>In Recordings page click on "YouTube channel" in paragraph under video list</td>
-<td>Open Damiano Rizzato's YouTube channel in a new tab</td>
-<td>Pass</td>
-</tr>
-<tr>
-<td>Click on "Get in touch" button from any page but Get in touch page</td>
+<td>Click on "Get in touch" button in navbar</td>
 <td>Redirect to Get in touch page</td>
 <td>Pass</td>
 </tr>
 <tr>
-<td>Click on "Get in touch" button from Get in touch page</td>
-<td>Rerender Get in touch page and land on hero-image section</td>
+<td><strong>CONCERTS PAGE</strong></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Hover over "Concerts" navlink</td>
+<td>Slim down the "Concerts" underlining</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Hover over "Home", "About", "Newsletter", "Recordings"</td>
+<td>A white underlining appears under the hovered over navlink</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Hover over "Get in touch" button</td>
+<td>Maintain button brown borders, change background-color to white and text-color to brown</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on Home</td>
+<td>Redirect to homepage</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on Logo</td>
+<td>Redirect to homepage</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "About" navlink</td>
+<td>Redirect to About section in home page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Concerts" navlink</td>
+<td>Rerender Concerts page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Recordings" navlink</td>
+<td>Redirect to Recordings page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Get in touch" button</td>
+<td>Redirect to Get in touch page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on any venue image</td>
+<td>Open venue website in a new tab</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Hover over any "Buy tickets" button</td>
+<td>Change button background-color to brown, text-color to white, while preserving brown border</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on any "Buy tickets" button</td>
+<td>Open venue website in a new tab</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Newsletter" navlink</td>
+<td>Move to footer newsletter section while staying on Concerts page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td><strong>RECORDINGS PAGE</strong></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Hover over "Recordings" navlink</td>
+<td>Slim down the "Recordings" underlining</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Hover over "Home", "About", "Newsletter", "Concerts"</td>
+<td>A white underlining appears under the hovered over navlink</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Hover over "Get in touch" button</td>
+<td>Maintain button brown borders, change background-color to white and text-color to brown</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on Logo in the navbar</td>
+<td>Redirect to homepage at the level of hero-image</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Home" in the navbar</td>
+<td>Redirect to homepage at the level of hero-image</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "About" in the navbar</td>
+<td>Redirect to About section in homepage</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Concerts" navlink</td>
+<td>Redirect to Concerts page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Newsletter" navlink</td>
+<td>Move user to the footer newsletter signup section while staying on Recordings page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Recordings" navlink</td>
+<td>Rerender Recordings page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Get in touch" button</td>
+<td>Redirect to Get in touch page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Hover over interactive words "YouTube channel" in the call-to-action paragraph under the video list</td>
+<td>Change words color to brown</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on interactive words "YouTube channel" at the bottom of the page</td>
+<td>Open Damiano's YouTube channel in a new tab</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on any video</td>
+<td>Start playing video and provide user control bar (pause, volumen, progress-bar)</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>GET IN TOUCH PAGE</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Hover over "Get in touch" button</td>
+<td>Button maintains brown borders, white background-color, brown text-color</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Hover over "Home", "About", "Newsletter", "Concerts" and "Recordings"</td>
+<td>A white underlining appears under the hovered over navlink</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on Logo in the navbar</td>
+<td>Redirect to homepage at the level of hero-image</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Home" navlink</td>
+<td>Redirect to homepage at the level of hero-image</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "About" navlink</td>
+<td>Redirect to About section in the homepage</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Newsletter" navlink</td>
+<td>Move to footer newsletter signup form, while staying in Get in touch page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Concerts" navlink</td>
+<td>Redirect to Concerts page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Recordings" navlink</td>
+<td>Redirect to Recordings page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Hover over "Get in touch" button</td>
+<td>Button maintains brown border, white background and brown text-color</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Get in touch" button</td>
+<td>Rerender Get in touch page</td>
 <td>Pass</td>
 </tr>
 <tr>
@@ -341,54 +501,153 @@ For responsiveness and tests on devices larger than the ones mentioned above I u
 <td>Pass</td>
 </tr>
 <tr>
-<td>FEEDBACK PAGE GET IN TOUCH FORM</td>
+<td><strong>FEEDBACK PAGE GET IN TOUCH FORM</strong></td>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
-<td>In the feedback page for the Get in touch form click on "Return to homepage" button</td>
+<td>Hover over "Home", "About", "Newsletter", "Concerts", "Recordings"</td>
+<td>A white underlining appears under the hovered over navlink</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Hover over "Return to homepage" button</td>
+<td>Keep brown border button, change background-color to white and text-color to brown</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Return to homepage" button</td>
 <td>Redirect to homepage</td>
 <td>Pass</td>
 </tr>
 <tr>
-<td>FEEDBACK PAGE NEWSLETTER</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>In the feedback page for the Newsletter signup form click on "Return to homepage" button</td>
-<td>Redirect to homepage</td>
+<td>Click on Logo in navbar</td>
+<td>Redirect to homepage, hero-image section</td>
 <td>Pass</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>Click on "Home" navlink</td>
+<td>Redirect to homepage, hero-image section</td>
+<td>Pass</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>Click on "About" navlink</td>
+<td>Redirect to About section in homepage</td>
+<td>Pass</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>Click on "Newsletter" navlink</td>
+<td>Move to footer newsletter sign up form, while staying on the Feedback get-in-touch page</td>
+<td>Pass</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>Click on "Concerts" navlink</td>
+<td>Redirect to Concerts page</td>
+<td>Pass</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>Click on "Recordings" navlink</td>
+<td>Redirect to Recordings page</td>
+<td>Pass</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>Hover over "Get in touch" button</td>
+<td>Button maintains brown borders, white background and brown text</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Get in touch" button</td>
+<td>Redirect to Get in touch page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td><strong>NEWSLETTER signup form</strong></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Click on "Sign up" without inputting text</td>
+<td>Prompt to fill in a value with the @ (at) symbol</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Fill in an e-mail address/text with the @ (at) symbol and click on "Sign up"</td>
+<td>Redirect to Feedback page Newsletter</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td><strong>FEEDBACK PAGE NEWSLETTER</strong></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Hover over "Home", "About", "Newsletter", "Concerts", "Recordings"</td>
+<td>A white underlining appears under the hovered over navlink</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Hover over "Get in touch" button</td>
+<td>Maintain button brown borders, change background-color to white and text-color to brown</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Hover over "Return to homepage" button</td>
+<td>Maintain button brown borders, change background-color to white and text-color to brown</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Return to homepage" button</td>
+<td>Redirect to homepage</td>
+<td>Pass</td>
+</tr>
+<td>Click on Logo in navbar</td>
+<td>Redirect to homepage, hero-image section</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Home" navlink</td>
+<td>Redirect to homepage, hero-image section</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "About" navlink</td>
+<td>Redirect to About section in homepage</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Newsletter" navlink</td>
+<td>Move to footer newsletter sign up form, while staying on the Feedback newsletter page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Concerts" navlink</td>
+<td>Redirect to Concerts page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Recordings" navlink</td>
+<td>Redirect to Recordings page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on "Get in touch" button</td>
+<td>Redirect to Get in touch page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td><strong>FOOTER SOCIAL MEDIA ICONS ON ALL PAGES</strong></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Hover over any social media icon</td>
+<td>The URL of the corresponding social media network appears in the bottom left corne of the page</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Click on any social media icon</td>
+<td>Open login page of the selected social media network</td>
+<td>Pass</td>
 </tr>
 </table>
 
@@ -422,11 +681,16 @@ This can be fixed by using JavaScript, which falls outside of the scope of this 
 The site was deployed to GitHub pages. 
 The steps to deploy are as follows:
 <ol>
-<li>Navigate to the GitHub Repository</li>
-<li>In the GitHub repository <em>Damiano-Rizzato-Flutist---Project-1-HTML-CSS</em>, navigate to the Settings tab</li>
-<li>From the source section drop-down menu, select the Master Branch</li>
-<li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
+<li>Navigate to the GitHub Repository;</li>
+<li>Click on the "Settings" tab on the top navigation bar;</li>
+<li>Click on "Pages" on the left navigation menu";</li>
+<li>Ensure the "Source" is set to "Deploy from a Branch";</li>
+<li>Ensure the "Branch" is set to "Main"</li>
+<li>Click on "Save";</li>
+<li>The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
 </ol>
+
+<p>Here is the link to the deployed version: <a href="https://dr-developer98.github.io/Damiano-Rizzato-Flutist---Project-1-HTML-CSS/" target="blank">Damiano Rizzato - Flutist</a></p>
 
 <h2>Credits</h2>
 
