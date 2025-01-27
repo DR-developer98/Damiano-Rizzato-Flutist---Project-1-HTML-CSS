@@ -802,7 +802,8 @@ footer {
     }
 
     #get-in-touch-overlay {
-        width: 400px;
+        width: 40vw;
+        bottom: 35%;
     }
 
     /*form-section*/
