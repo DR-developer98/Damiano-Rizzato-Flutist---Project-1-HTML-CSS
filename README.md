@@ -1,7 +1,7 @@
 <img src="assets/images-for-README/fulllogo.webp" style="width: 25%;">
 
 <h1>Damiano Rizzato - Flutist</h1>
-Welcome to the official professional website of Damiano Rizzato, created to connect venues, artistic directors, classical music enthusiasts, and social media followers with Damiano.
+Welcome to the official professional website of Damiano Rizzato, created to connect venues, artistic directors, classical music enthusiasts, and Instagram followers with Damiano.
 
 This website serves as a landing page that allows various visitors, most likely adults, located in the Zaanstad area in the Netherlands, to:
 
@@ -11,18 +11,23 @@ This website serves as a landing page that allows various visitors, most likely 
 <li>Listen to his recordings;</li>
 <li>Contact him to discuss concert and project ideas or to book him for an event;</li>
 </ul>
-The primary business objective is to help the flutist secure more performance opportunities, emphasized by the prominent "Get in touch" button in the website's navigation bar.
+<p>The primary business objective is to help the flutist secure more performance opportunities, emphasized by the prominent "Get in touch" button in the website's navigation bar.</p>
+
+<img src="assets/images-for-README/Am-I-responsive.webp">
+
+<p>Link to deployed website: <a href="https://dr-developer98.github.io/Damiano-Rizzato-Flutist---Project-1-HTML-CSS/" target="_blank">Damiano Rizzato - Flutist</a></p>
+<p>Link to repository: <a href="https://github.com/DR-developer98/Damiano-Rizzato-Flutist---Project-1-HTML-CSS" target="_blank">Damiano-Rizzato-Flutist---Project-1-HTML-CSS</a></p>
 
 <h2>Relevant User Stories</h2>
 The foundation of this website is built on the following user stories:
 
 <ol>
-<li>As an Instagram follower, I want to find a biography section, so I can learn more about Damiano's background.</li>
-<li>As a regular concert attendee, I want to see a list of upcoming performances with clear details about time, date, venue, and program, so I can find events that interest me and fit my schedule.</li>
-<li>As a classical music enthusiast, I want to subscribe to Damiano's newsletter, so I can receive updates on his upcoming performances, new recordings, and behind-the-scenes insights directly in my inbox.</li>
-<li>As a classical music enthusiast, I want easy access to Damiano's social media profiles, so I can stay updated with his latest activities, performances, and content on various platforms.</li>
-<li>As the manager of a concert venue, I want to listen to some of Damiano's recordings, so I can determine if he's a good fit for the concert I am organizing.</li>
-<li>As an artistic director, I want to get in touch with Damiano, so I can discuss concert and project ideas with him.</li>
+<li id="US1">As an Instagram follower, I want to find a biography section, so I can learn more about Damiano's background.</li>
+<li id="US2">As a regular classical concert attendee, I want to see a list of upcoming performances with clear details about time, date, venue, and program, so I can find events that interest me and fit my schedule.</li>
+<li id="US3">As a classical music enthusiast, I want to subscribe to Damiano's newsletter, so I can receive updates on his upcoming performances, new recordings, and behind-the-scenes insights directly in my inbox.</li>
+<li id="US4">As a classical music enthusiast, I want easy access to Damiano's social media profiles, so I can stay updated with his latest activities, performances, and content on various platforms.</li>
+<li id="US5">As the manager of a concert venue, I want to listen to some of Damiano's recordings, so I can determine if he's a good fit for the concert I am organizing.</li>
+<li id="US6">As an artistic director, I want to get in touch with Damiano, so I can discuss concert and project ideas with him.</li>
 </ol>
 
 <h2>Features</h2>
@@ -46,18 +51,18 @@ The footer section, which appears on all website pages and is fully responsive o
 
 <li><strong>the social media section:</strong> this section includes links to all of the flutist's relevant social media sites. These links open in a new tab, ensuring easy navigation for the user.</li> 
 </ul>
-The footer section addresses the third and fourth user stories, enabling users to receive updates on upcoming concerts, projects, and recordings directly in their mailbox, as well as easily navigate to the flutist's various social media profiles to view the different types of content he publishes.
+The footer section addresses the <a href="#US3">third</a> and <a href="#US4">fourth</a> user stories, enabling users to receive updates on upcoming concerts, projects, and recordings directly in their mailbox, as well as easily navigate to the flutist's various social media profiles to view the different types of content he publishes.
 
 <img src="assets/images-for-README/footer.webp">
 
 <h3>Landing page image</h3>
-The landing includes a photograph of Damiano with text overlay with his full name.
+The landing page includes a photograph of Damiano with text overlay with his full name.
 This section introduces the user to the flutist with a photo from one of his performances.
 
 <img src="assets/images-for-README/Landing-page.webp" style="width: 75%">
 
 <h3>About</h3>
-The About section, located in the homepage directly under the hero-image, serves the user in that it directly addresses the first user story, providing them with the flutist's background information. This section is accessible from all pages by means of "About" nav link.
+The About section, located in the homepage directly under the hero-image, serves the user in that it directly addresses the <a href="#US1">first</a> user story, providing them with the flutist's background information. This section is accessible from all pages by means of "About" nav link.
 
 <img src="assets/images-for-README/About-section.webp" style="width: 75%">
 
@@ -67,13 +72,14 @@ The concerts page lists upcoming performances with details like venue, date, tim
 <li>Venue picture, which upon clicking will redirect the user to the venue's homepage;</li>
 <li>Concert description section, which includes all useful information as well as a "Buy tickets" button that - currently - links to the venue's homepage. </li>
 </ul> 
-<strong style="color: red">Note:</strong> dates, times, programs and the musicians' names are all fictional, therefore any reference to real people and events is purely coincidental. This section will be updated with real events in the future.
+<p>This section addresses the <a href="#US2">second user story</a> in that it provides regular concert goers with basic relevant information about the time and the location of the listed events, so that one can see what fits into their schedule, and because it lists the repertoire that is going to be presented it ensures that attendees are well-informed and can plan their visits accordingly, contributing to a more engaging and organized concert-going experience.</p>
+<p><strong style="color: red">Note:</strong> dates, times, programs and the musicians' names are all fictional, therefore any reference to real people and events is purely coincidental. This section will be updated with real events in the future.</p>
 
 <img src="assets/images-for-README/Concerts-page.webp" style="width: 75%">
 
 <h3>Recordings</h3>
 The recordings page features eight highlight recordings from Damiano's YouTube channel and a link to the full channel at the bottom. This section will regularly be updated with the flutist's latest recordings.
-This feature addresses user story #5, providing artistic directors and venues the possibility to easily access and review the latest performances and works by Damiano, helping them make informed decisions regarding potential bookings and collaborations. 
+This feature addresses the <a href="#US5">fifth user story</a>, providing artistic directors and venues the possibility to easily access and review the latest performances and works by Damiano, helping them make informed decisions regarding potential bookings and collaborations. 
 
 <img src="assets/images-for-README/recordings-page.webp" style="width: 75%">
 
@@ -90,11 +96,13 @@ This page will allow primarily concert venue managers and artistic directors to 
 
 <img src="assets/images-for-README/get-in-touch-form.webp" style="width: 75%">
 
+The form consists of three text input fields (Name, Query subject, Message) and one e-mail field.
 All the fields must be filled in, in order to meet the form submission requirements. After clicking on submit, the user will be redirected to a feedback page, which comprises a short thank-you-for-reaching-out text as well as a "Return to homepage" button.
 </li>
 
 <img src="assets/images-for-README/feedback-page-get-in-touch.webp" style="width: 75%">
 </ul>
+<p>This feature makes sure the <a href="#US6">sixth user story</a> is implemented, enabling artistic diectors to reach out to Damiano.</p>
 
 <h2>Testing</h2>
 I tested that this website works across some of the major Browsers: Google Chrome, Mozilla Firefox and Microsoft Edge.
