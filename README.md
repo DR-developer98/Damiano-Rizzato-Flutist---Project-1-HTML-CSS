@@ -45,7 +45,7 @@ The footer section, which appears on all website pages and is fully responsive o
 <ul>
 <li><strong>the newsletter section:</strong> accessible from any page via an in-page link ("Newsletter") in the navbar, this section includes a short call to action and an email input field for users to sign up. Clicking on "sign up" will redirect the user to a feedback page, with a short thank-you-for-signing-up text as well as a "Return to homepage" button.
 <br>
-<strong style="color: red">Note:</strong> on many websites, the feedback given to the users upon signing up for a newsletter is a strip of text appearing below the email input field. As this requires JavaScript and as I didn't possess the right set of skills at the time of me designing this website, I chose to create a whole feedback page</li>
+<strong style="color: red">Note:</strong> on many websites, the feedback given to the users upon signing up for a newsletter is a strip of text appearing below the email input field. As this requires JavaScript and as I didn't possess the right set of skills at the time of me designing this website, I chose to create a whole feedback page.</li>
 
 <img src="assets/images-for-README/Success-newsletter.webp" style="width: 75%">
 
@@ -62,7 +62,7 @@ This section introduces the user to the flutist with a photo from one of his per
 <img src="assets/images-for-README/Landing-page.webp" style="width: 75%">
 
 <h3>About</h3>
-The About section, located in the homepage directly under the hero-image, serves the user in that it directly addresses the <a href="#US1">first</a> user story, providing them with the flutist's background information. This section is accessible from all pages by means of "About" nav link.
+The About section, located in the homepage directly under the hero-image, serves the user in that it directly addresses the <a href="#US1">first</a> user story, providing them with the flutist's background information. This section is accessible from all pages by means of the "About" nav link.
 
 <img src="assets/images-for-README/About-section.webp" style="width: 75%">
 
@@ -72,7 +72,7 @@ The concerts page lists upcoming performances with details like venue, date, tim
 <li>Venue picture, which upon clicking will redirect the user to the venue's homepage;</li>
 <li>Concert description section, which includes all useful information as well as a "Buy tickets" button that - currently - links to the venue's homepage. </li>
 </ul> 
-<p>This section addresses the <a href="#US2">second user story</a> in that it provides regular concert goers with basic relevant information about the time and the location of the listed events, so that one can see what fits into their schedule, and because it lists the repertoire that is going to be presented it ensures that attendees are well-informed and can plan their visits accordingly, contributing to a more engaging and organized concert-going experience.</p>
+<p>This section addresses the <a href="#US2">second user story</a> in that it provides regular concert goers with basic relevant information about the time and the location of the listed events, so that one can see what fits into their schedule, and because it lists the repertoire that is going to be presented, it ensures that attendees are well-informed and can plan their visits accordingly, contributing to a more engaging and organized concert-going experience.</p>
 <p><strong style="color: red">Note:</strong> dates, times, programs and the musicians' names are all fictional, therefore any reference to real people and events is purely coincidental. This section will be updated with real events in the future.</p>
 
 <img src="assets/images-for-README/Concerts-page.webp" style="width: 75%">
@@ -96,13 +96,21 @@ This page will allow primarily concert venue managers and artistic directors to 
 
 <img src="assets/images-for-README/get-in-touch-form.webp" style="width: 75%">
 
-The form consists of three text input fields (Name, Query subject, Message) and one e-mail field.
+The form consists of three text input fields (Name, Query subject, Message) and one e-mail input field.
 All the fields must be filled in, in order to meet the form submission requirements. After clicking on submit, the user will be redirected to a feedback page, which comprises a short thank-you-for-reaching-out text as well as a "Return to homepage" button.
 </li>
 
 <img src="assets/images-for-README/feedback-page-get-in-touch.webp" style="width: 75%">
 </ul>
 <p>This feature makes sure the <a href="#US6">sixth user story</a> is implemented, enabling artistic diectors to reach out to Damiano.</p>
+
+<h3>Future implementations</h3>
+<ul>
+<li><strong>Newsletter:</strong> in the future the newsletter section will be integrated with JavaScript in order to enable the appearance of a feedback text below the e-mail input field or a modal. Herewith the Feedback newsletter page will cease to be necessary and will be deleted. The integration of JavaScript will enable user input data to automatically trigger the sending of a confirmation email to the user's mailbox. </li>
+<li><strong>Concerts page:</strong> this page will be updated with information regarding actual events/concerts/projects and actual collaborators' names. The venue images will still redirect the user to the venue website homepage, but the "Buy tickets" buttons will actually redirect the user to the page where they'll be able to purchase tickets for the selected concert.</li>
+<li><strong>Recordings page:</strong> this page will be kept updated with the most recent video performances from Damiano's YouTube channel.</li>
+<li><strong>Social media icons in the footer:</strong> in the future each social media icon will redirect the user to Damiano's accounts instead of the social network login page.</li>
+</ul>
 
 <h2>Testing</h2>
 I tested that this website works across some of the major Browsers: Google Chrome, Mozilla Firefox and Microsoft Edge.
