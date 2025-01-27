@@ -3,7 +3,7 @@
 <h1>Damiano Rizzato - Flutist</h1>
 Welcome to the official professional website of Damiano Rizzato, created to connect venues, artistic directors, classical music enthusiasts, and social media followers with Damiano.
 
-This website serves as a landing page that allows various visitors to:
+This website serves as a landing page that allows various visitors, most likely adults, located in the Zaanstad area in the Netherlands, to:
 
 <ul>
 <li>Discover more about his background and career;</li>
@@ -14,7 +14,7 @@ This website serves as a landing page that allows various visitors to:
 The primary business objective is to help the flutist secure more performance opportunities, emphasized by the prominent "Get in touch" button in the website's navigation bar.
 
 <h2>Relevant User Stories</h2>
-The foundation of this website is built on the following relevant user stories:
+The foundation of this website is built on the following user stories:
 
 <ol>
 <li>As an Instagram follower, I want to find a biography section, so I can learn more about Damiano's background.</li>
@@ -127,49 +127,58 @@ For responsiveness and tests on devices larger than the ones mentioned above I u
 
 <img src="assets/images-for-README/code-link-turned-into-button-copilot.webp">
 
-<li>In concerts.html, in the .concert-text section of each concert card, the Validator was giving this error message: "Error: No p element in scope but a p end tag seen.". This was caused by the paragraphs incorrectly cointaining the block-level element "ul". This was fixed by removing the "p"'s as containers of those unordered lists. <strong style="color: green">Credit:</strong> <a href="https://github.com/validator/validator/issues/1101">github.com/validator/validator/issues/1101</a></li>
+<li>In concerts.html, in the .concert-text section of each concert card, the Validator was giving this error message: "Error: No p element in scope but a p end tag seen.". This was caused by the paragraphs incorrectly cointaining the block-level element "ul". This was fixed by removing the paragraphs as containers of those unordered lists. <strong style="color: green">Credit:</strong> <a href="https://github.com/validator/validator/issues/1101">github.com/validator/validator/issues/1101</a></li>
 
 <li>In get-in-touch.html, the #form section was lacking a heading. This was solved by turning the section #form element into a div#form element and by removing the unnecessary direct div-child.</li>
 
 <li>With regard to the confirmation pages for the get in touch form and the newsletter signup section no errors were returned when passing through the official Validator.</li>
 </ul>
 
-<h5>HTML Validator results</h5>
+<h5>2) HTML Validator results</h5>
 <ul>
 <li>Homepage/index.html</li>
+<img src="assets/images-for-README/HTML-validation-index.html.webp">
 
 <li>Concerts page</li>
+<img src="assets/images-for-README/HTML-validation-concerts-page.webp">
 
 <li>Recordings page</li>
+<img src="assets/images-for-README/HTML-validation-recordings-page.webp">
 
 <li>Get in touch page</li>
+<img src="assets/images-for-README/HTML-validation-get-in-touch-page.webp">
 
 <li>Feedback page Get in touch form</li>
+<img src="assets/images-for-README/HTML-validation-feedback-get-in-touch.webp">
 
 <li>Feedback page Newsletter signup form</li>
+<img src="assets/images-for-README/HTML-validation-feedback-newsletter.webp">
 
 </ul>
 
 <h4 style="color: orange">CSS</h4>
 <p>The Website CSS was tested using the official <a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validation Service</a></p>
 
-<h5>Fixed bugs</h5>
+<h5>1) Fixed bugs</h5>
 <ul>
 <li>Removed padding-bottom: -10px from #newsletter section in footer, since negative padding values aren't allowed.</li></ul>
 
-
-
+<h5>2) CSS Validator result</h5>
+<ul>
+<li>Total validation</li>
+<img src="assets/images-for-README/CSS-validation.webp">
+</ul>
 
 <h3>Lighthouse report</h3>
 
-<h4>Fixed bugs</h4>
+<h4>1) Fixed bugs</h4>
 <ul>
 <li>Added "link rel="preload" as="image" href="path-to-your-image.jpg"" to "head" element of all pages in order to improve the LCP. Integrating this pushed lighthouse performacen rate.<br>
 <strong style="color: green">Credit: </strong><a href="https://speedvitals.com/blog/preload-lcp-image/" target="_blank">speedvitals.com</a></li>
 <li>Added width: 120px to logo in the navbar to improve Lighthouse performance score.</li>
 </ul>
 
-<h4>Lighthouse score</h4>
+<h4>2) Lighthouse score</h4>
 
 <img src="assets/images-for-README/Lighthouse-report.webp">
 
@@ -332,9 +341,19 @@ For responsiveness and tests on devices larger than the ones mentioned above I u
 <td>Pass</td>
 </tr>
 <tr>
+<td>FEEDBACK PAGE GET IN TOUCH FORM</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
 <td>In the feedback page for the Get in touch form click on "Return to homepage" button</td>
 <td>Redirect to homepage</td>
 <td>Pass</td>
+</tr>
+<tr>
+<td>FEEDBACK PAGE NEWSLETTER</td>
+<td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>In the feedback page for the Newsletter signup form click on "Return to homepage" button</td>
@@ -403,6 +422,7 @@ This can be fixed by using JavaScript, which falls outside of the scope of this 
 The site was deployed to GitHub pages. 
 The steps to deploy are as follows:
 <ol>
+<li>Navigate to the GitHub Repository</li>
 <li>In the GitHub repository <em>Damiano-Rizzato-Flutist---Project-1-HTML-CSS</em>, navigate to the Settings tab</li>
 <li>From the source section drop-down menu, select the Master Branch</li>
 <li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
@@ -413,19 +433,19 @@ The steps to deploy are as follows:
 <h3>Content</h3>
 
 <ul>
-<li>Code for structure navbar, nav-toggle, structure footer, position of hero-image and text overlay in the homepage was taken from the Love Running CI project. For detailed source referencing, refer to index.html and style.css.</li>
+<li>Code for structure navbar, nav-toggle, structure footer, position of hero-image and text overlay in the homepage was taken from the Love Running CI project. For detailed source referencing, please refer to <a href="index.html">index.html</a> and <a href="assets/css/style.css">style.css</a>.</li>
 <li>Cursor: pointer property added to website buttons was taken from <a href="https://www.w3schools.com/cssref/pr_class_cursor.php">W3School</a>.</li>
 </ul>
 
 <h4>Technologies used</h4>
 <ul>
-<li>The logo was made using <a href="https://www.design.com/identity/account/signin?returnUrl=%2Fmaker%2Fmylogos%2Fdrafts%2F1a12edad-ae26-4e4e-ac1b-dafe6d2c9723%2Fdownload" target="_blank" aria-label="Sign in page Design.com">www.design.com</a></li>
+<li>The logo was made using <a href="https://www.design.com/identity/account/signin?returnUrl=%2Fmaker%2Fmylogos%2Fdrafts%2F1a12edad-ae26-4e4e-ac1b-dafe6d2c9723%2Fdownload" target="_blank" aria-label="Sign in page Design.com">www.design.com</a>.</li>
 <li>The favicons were made using <a href="https://favicon.io/" target="_blank" aria-label="Favicon.io homepage">favicon.io</a></li>
-<li>The social media icons were taken from <a href="https://fontawesome.com/" target="_blank" aria-label="Fontawesome homepage">www.fontawesome.com</a></li>
-<li>The musicians' names (Tristan de Lange and Melissa de Bruijn) were generated by <a href="https://www.random-name-generator.com/netherlands?s=965&search_terms=&gender=female&search_terms=&n=3" target="_blank" aria-label="Random name generator - Dutch names page">www.random-name-generator.com</a></li>
-<li>The used pictures were upscaled using <a href="https://www.iloveimg.com/upscale-image" target="_blank">www.iloveimg.com</a></li>
-<li>HTML for the website structure</li>
-<li>CSS for the website layout and esthetic</li>
+<li>The social media icons for the footer and the burger icon for the dropdown menu were taken from <a href="https://fontawesome.com/" target="_blank" aria-label="Fontawesome homepage">www.fontawesome.com</a>.</li>
+<li>The musicians' names (Tristan de Lange and Melissa de Bruijn) were generated by <a href="https://www.random-name-generator.com/netherlands?s=965&search_terms=&gender=female&search_terms=&n=3" target="_blank" aria-label="Random name generator - Dutch names page">www.random-name-generator.com</a>.</li>
+<li>The used pictures were upscaled using <a href="https://www.iloveimg.com/upscale-image" target="_blank">www.iloveimg.com</a>.</li>
+<li>HTML for website structure and different pages.</li>
+<li>CSS for website styling.</li>
 </ul>
 
 <h4>Media</h4>
@@ -441,5 +461,5 @@ The steps to deploy are as follows:
 </ul>
 </li>
 <li>The venue pictures used in the Concerts page were taken from <a href="https://images.google.com/" target="_blank" aria-label="Google images">images.google.com</a></li>
-<li>All the YouTube videos included in the Recordings page were taken from my own <a href="https://www.youtube.com/@dam987" target="_blank" aria-label="Damiano Rizzato flutist - YouTube profile">YouTube channel</a></li>
+<li>All the YouTube videos included in the Recordings page were taken from my own <a href="https://www.youtube.com/@dam987" target="_blank" aria-label="Damiano Rizzato flutist - YouTube profile">YouTube channel</a>.</li>
 </ul>
