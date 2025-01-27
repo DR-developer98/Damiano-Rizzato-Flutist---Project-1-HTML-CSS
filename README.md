@@ -97,46 +97,81 @@ All the fields must be filled in, in order to meet the form submission requireme
 </ul>
 
 <h2>Testing</h2>
-<h3>Validator testing</h3>
-
+I tested that this website works across some of the major Browsers: Google Chrome, Mozilla Firefox and Microsoft Edge.
+I also ran manual tests on the following devices and the website worked on all of them as expected.
 <ul>
-<li>HTML
+<li><strong>Mobile phones:</strong> Samsung A52, Iphone 7 Plus;</li>
+<li><strong>Tablet:</strong> Galaxy Tab A (2016)</li>
+<li><strong>Laptop:</strong> Lenovo </li>
+</ul>
+For responsiveness and tests on devices larger than the ones mentioned above I used the Browser Dev Tools.
+
+<h3 style="color: darkred">Validator testing</h3>
+
+<h4 style="color: orange">HTML</h4>
+<p>The website HTML was tested using <a href="https://validator.w3.org/" target="_blank">W3C validator</a></p>
+
+<h5>1) Fixed bugs</h5>
+
 <ul>
 <li>In recordings.html I removed the "frameboarder: 0" inline CSS style of the iframes and replaced it with external CSS "border: none." <strong style="color: green">Credit:</strong> <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_iframe_frameborder_css" target="_blank">W3School</a></li>
 <li>Added closing tags/Removed unnecessary opening tags</li>
 <li>Substituted the button mistakingly nested inside an anchor element (Get-in-touch button in navbar) by using the code hereinafter.
-<strong style="color: green">Credit:</strong> <a href="https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link" target="_blank">Stackoverflow</a>
+<strong style="color: green">Credit:</strong> <a href="https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link" target="_blank">Stackoverflow</a></li>
 
 <img src="assets/images-for-README/display-link-as-button-solution.webp">
-<li>Since the abovementioned code doesn't allow to create buttons that open on a new tab, in order to make the "Buy tickets" buttons for the concerts page and the "Return to homepage" buttons for the feedback pages for newsletter and get-in-touch form, this code ↓ was used.
+<li>Since the abovementioned code doesn't allow to create buttons that open on a new tab, in order to make the "Buy tickets" buttons for the concerts page and the "Return to homepage" buttons on the feedback pages, this code ↓ was used.
 <br>
 <strong style="color: green">Credit:</strong> <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_link_advanced" target="_blank">W3School</a>
 </li>
 
 <img src="assets/images-for-README/code-link-turned-into-button-copilot.webp">
 
+<li>In concerts.html, in the .concert-text section of each concert card, the Validator was giving this error message: "Error: No p element in scope but a p end tag seen.". This was caused by the paragraphs incorrectly cointaining the block-level element "ul". This was fixed by removing the "p"'s as containers of those unordered lists. <strong style="color: green">Credit:</strong> <a href="https://github.com/validator/validator/issues/1101">github.com/validator/validator/issues/1101</a></li>
 
-</li>
-<li>In concerts.html, in the .concert-text section of each concert card, the Validator was giving this error message: "Error: No p element in scope but a p end tag seen.". This was caused by those "p"'s incorrectly cointaining the block-level element "ul". This was fixed by removing the "p"'s as containers of those unordered lists. <strong style="color: green">Credit:</strong> <a href="https://github.com/validator/validator/issues/1101">github.com/validator/validator/issues/1101</a></li>
 <li>In get-in-touch.html, the #form section was lacking a heading. This was solved by turning the section #form element into a div#form element and by removing the unnecessary direct div-child.</li>
-<li>With regard to the confirmation pages for the get in touch form and the newsletter signup section no errors were returned when passing through the official <a href="https://validator.w3.org/" target="_blank">W3C validator</a></li>
+
+<li>With regard to the confirmation pages for the get in touch form and the newsletter signup section no errors were returned when passing through the official Validator.</li>
 </ul>
-</li>
-<li>CSS
+
+<h5>HTML Validator results</h5>
 <ul>
-<li>Removed padding-bottom: -10px from #newsletter section in footer, since negative padding values aren't allowed.</li></ul></li>
+<li>Homepage/index.html</li>
+
+<li>Concerts page</li>
+
+<li>Recordings page</li>
+
+<li>Get in touch page</li>
+
+<li>Feedback page Get in touch form</li>
+
+<li>Feedback page Newsletter signup form</li>
+
 </ul>
+
+<h4 style="color: orange">CSS</h4>
+<p>The Website CSS was tested using the official <a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validation Service</a></p>
+
+<h5>Fixed bugs</h5>
+<ul>
+<li>Removed padding-bottom: -10px from #newsletter section in footer, since negative padding values aren't allowed.</li></ul>
+
+
+
 
 <h3>Lighthouse report</h3>
-<img src="assets/images-for-README/Lighthouse-report.webp">
 
+<h4>Fixed bugs</h4>
 <ul>
 <li>Added "link rel="preload" as="image" href="path-to-your-image.jpg"" to "head" element of all pages in order to improve the LCP. Integrating this pushed lighthouse performacen rate.<br>
 <strong style="color: green">Credit: </strong><a href="https://speedvitals.com/blog/preload-lcp-image/" target="_blank">speedvitals.com</a></li>
 <li>Added width: 120px to logo in the navbar to improve Lighthouse performance score.</li>
 </ul>
 
-<!-- Add screenshots Lighthouse report for all pages -->
+<h4>Lighthouse score</h4>
+
+<img src="assets/images-for-README/Lighthouse-report.webp">
 
 <h3>Functional/Regression testing</h3>
 
